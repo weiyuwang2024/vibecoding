@@ -1,31 +1,37 @@
-# Coding Agent Basics
+# Mastering AI-Powered Development: A Comprehensive Guide to Coding Agents
 
----
-## 1.Prompts
-
-#### Global Prompts
-- **Project-wide instructions** that apply to all interactions
-- **Coding standards** and style preferences
-- **Architecture patterns** and design principles
-- **Team conventions** and best practices
-
-#### Predefined Prompts (Selectable)
-- Template-based prompts for common tasks
-- Quick actions for frequent operations
-- Standardized workflows for consistency
-- Role-specific prompts (frontend, backend, testing, etc.)
-
-#### Ad-hoc Prompts
-- **Chat** - Direct conversational instructions
-- **File** - Code files, documentation, configuration
-- **Folder** - Project structure and directory context
-- **URL** - Web resources, documentation, APIs
-- **Terminal** - Command output, logs, error messages
-- ...
+**Duration: 52-70 minutes**
 
 ---
 
-## 2. Multi-LLM Support
+# Vibe Coding Basics
+
+## 1. Prompt Engineering for Development Excellence
+**⏱️ Duration: 8-10 minutes**
+
+### Global Prompts: Foundation of Consistency
+- **Project-wide standards** ensuring uniform code quality across all interactions
+- **Architectural principles** and design patterns enforcement
+- **Team conventions** and coding style guidelines
+- **Domain-specific knowledge** integration for specialized projects
+
+### Predefined Prompt Templates: Efficiency at Scale
+- **Role-based workflows** (Frontend, Backend, DevOps, Testing)
+- **Common task automation** (CRUD operations, API endpoints, test suites)
+- **Quality gates** and review checklists
+- **Standardized documentation** generation
+
+### Dynamic Context Integration
+- **Chat-based** direct conversational programming
+- **File-aware** code analysis and modification
+- **Directory-scoped** project structure understanding
+- **Web-integrated** documentation and API reference pulling
+- **Terminal-connected** real-time debugging and execution feedback
+
+---
+
+## 2. Multi-Model Strategy: Choosing the Right AI for the Job
+**⏱️ Duration: 2 minutes**
 
 ### Most Common Models used for Vibe Coding
 
@@ -33,72 +39,93 @@
 - **Gemini 2.5 Pro** - Versatile multimodal model with strong visual processing and fast response times
 - **GPT 4.1** - Reliable general-purpose model with balanced performance across standard development workflows
 
+---
 
-## 3. Plan Mode vs Action Mode
+## 3. Development Modes: Strategic vs Tactical Execution
+**⏱️ Duration: 7-9 minutes**
 
-### Plan Mode 🧠
-**Strategic thinking and high-level design**
-- Architecture planning and system design
-- Task breakdown and workflow planning
-- Risk assessment and approach validation
-- **No code execution** - pure planning phase
+### Plan Mode 🧠 - Strategic Architecture Phase
+**When to use:** Complex feature planning, system design, technical debt assessment
 
-### Action Mode ⚡
-**Implementation and execution**
-- Implementation and code generation
-- File modifications and creation
-- Command execution and testing
-- Real-time problem solving
-- Direct system interaction
+- **System architecture** design and validation
+- **Component interaction** mapping and dependency analysis
+- **Risk assessment** and technical feasibility studies
+- **Resource estimation** and timeline planning
+- **No code execution** - pure strategic thinking
+
+### Action Mode ⚡ - Implementation and Execution
+**When to use:** Feature implementation, bug fixes, testing, deployment
+
+- **Real-time code generation** and modification
+- **File system operations** and project structure updates
+- **Command execution** and environment management
+- **Testing and validation** cycles
+- **Direct system interaction** and debugging
+
+### Mode Transition Strategy
+- **Plan → Action:** Complete design validation before implementation
+- **Action → Plan:** Step back when complexity exceeds current scope
 
 ---
 
-## 4. Context Management
+## 4. Context Management: Maintaining AI Efficiency
+**⏱️ Duration: 5-7 minutes**
 
-### Clear Contexts 🧹
-- Fresh start capability
-- Remove conversation history
-- Reset agent state
-- Clean slate for new tasks
+### Context Lifecycle Management
 
-### Compress Contexts 📦
-- Summarize long conversations
-- Retain essential information
-- Optimize token usage
-- Maintain continuity while reducing overhead
+#### Clear Contexts 🧹 - Fresh Start Strategy
+- **When to use:** New feature development, debugging complex issues
+- **Benefits:** Eliminates bias from previous conversations
+- **Process:** Complete state reset while preserving project knowledge
 
-### Smart Context Retention
-- Automatic relevance scoring
-- Priority-based information keeping
-- Efficient memory utilization
+#### Compress Contexts 📦 - Intelligent Summarization
+- **When to use:** Long development sessions, iterative refinement
+- **Benefits:** Maintains continuity while optimizing performance
+- **Process:** Automated relevance scoring and information prioritization
 
----
-
-## Current Status: What Agents Excel At ✅
-
-### 1. Rapid Prototyping
-- **New feature development**
-- **Proof-of-concept implementations**
-- **Quick iterations and testing**
-
-### 2. Function Implementation
-- Algorithm development with provided signatures
-- Interface implementations
-- Data structure operations
-
-### 3. Code Generation with Example Templates
-- Similar functions/classes based on examples
-- Pattern replication across codebase
-- Consistent code style maintenance
-
-### 4. Test Generation
-- Unit tests for target interfaces
-- Edge case coverage
-- Test data generation
+#### Smart Retention Algorithms
+- **Priority-based filtering** of conversation history
+- **Automatic relevance scoring** for code snippets and decisions
+- **Efficient token utilization** for cost optimization
+- **Context inheritance** across related tasks
 
 ---
 
-## Current Challenges: Where Agents Struggle ⚠️
+# Vibe Coding Advanced
+
+## 5. Current AI Capabilities: Strengths and Strategic Applications
+**⏱️ Duration: 8-10 minutes**
+
+### Where AI Agents Excel ✅
+
+#### Rapid Prototyping and MVP Development
+- **Feature scaffolding** with complete CRUD operations
+- **API endpoint generation** with proper error handling
+- **Database schema** creation and migration scripts
+- **Integration testing** suites for new components
+
+#### Algorithm Implementation and Optimization
+- **Complex data structures** with optimal time/space complexity
+- **Business logic implementation** from detailed specifications
+- **Performance optimization** of existing algorithms
+- **Mathematical computations** and statistical analysis
+
+#### Pattern-Based Code Generation
+- **Template instantiation** across similar components
+- **Style consistency** maintenance throughout codebase
+- **Boilerplate reduction** for repetitive implementations
+- **Code standardization** according to team conventions
+
+#### Comprehensive Test Coverage
+- **Unit test generation** with edge case coverage
+- **Integration test scenarios** for API endpoints
+- **Mock data generation** for realistic testing
+- **Test automation** pipeline setup
+
+---
+
+## 6. Current Limitations: Where Agents Struggle ⚠️
+**⏱️ Duration: 6-8 minutes**
 
 ### 1. Large Project Integration
 - Adding features without design guidance
@@ -122,91 +149,146 @@
 
 ---
 
-## Solution: Enhanced Development Process
+## 7. Enhanced Development Methodology
+**⏱️ Duration: 8-10 minutes**
 
-### Developer Roles in New Process
+### Developer-Led Process Framework
 
-#### 1. System Design
-- **Design system modules**
-  - Define clear boundaries
-  - Establish communication patterns
-- **Outline module interfaces**
-  - Specify input/output contracts
-  - Define error handling
+#### 1. Design System Modules
+- **Define clear module boundaries** and responsibilities
+- **Establish communication patterns** between components
+- **Create modular architecture** that supports independent development
+- **Document module dependencies** and interaction contracts
 
-#### 2. Quality Assurance
-- **Design unit tests**
-  - Test against modules/interfaces
-  - Validate behavior expectations
-- **Refactor for consistency**
-  - Ensure pattern compliance
-  - Maintain code quality
+#### 2. Outline Module Interfaces
+- **Specify input/output contracts** for each module
+- **Define API signatures** and data structures
+- **Establish error handling** protocols and exception management
+- **Create interface documentation** for AI agent reference
 
-#### 3. Code Review
-- **Review generated code**
-  - Understand implementations
-  - Validate against requirements
+#### 3. Design Unit Tests
+- **Create test specifications** before implementation begins
+- **Define test cases** that validate module behavior
+- **Establish acceptance criteria** for each component
+- **Design edge case scenarios** and boundary condition tests
 
----
+#### 4. Refactor for Consistency
+- **Ensure pattern compliance** across all generated code
+- **Maintain architectural principles** throughout the codebase
+- **Standardize naming conventions** and code organization
+- **Optimize performance** and eliminate code duplication
 
-## Memory Banks: Project Intelligence
+#### 5. Review Generated Code
+- **Validate implementation** against design specifications
+- **Assess code quality** and maintainability standards
+- **Verify integration points** and system compatibility
+- **Ensure security** and performance requirements are met
 
-### 1. Project Brief 📋
-- **Core requirements definition**
-- **Primary use cases**
-- **Success criteria**
-
-### 2. System Patterns 🏗️
-- **System Architecture Graph**
-- **Workflow Diagrams**
-- **File/Folder Structure**
-- **Mermaid flowcharts** - LLMs process them excellently
-
-### 3. Technical Context 🔧
-- **Dependencies** with specific versions
-- **Libraries and packages** in use
-- **External service integrations**
+### AI-Human Collaboration Model
+- **Developer designs:** Architecture, interfaces, tests, standards
+- **AI implements:** Code generation, pattern following, documentation
+- **Developer validates:** Quality, integration, performance, security
 
 ---
 
-## Task Management Strategy
+## 8. Memory Banks: Persistent Project Intelligence
+**⏱️ Duration: 6-8 minutes**
 
-### Task Creation & Breakdown
-1. **Build tasks from PRD** or ad-hoc requests with plan mode
-2. **Break large tasks** into manageable sub-tasks
-3. **No upfront full task lists** - long dependencies are unreliable
-4. **Outline changes clearly** - identify new vs modified components
+### Structured Knowledge Management System
 
-### Task Execution Principles
-- **Incremental development** approach
-- **Continuous validation** against requirements
-- **Pattern consistency** enforcement
-- **Context-aware** implementation
+#### Project Brief 📋 - Strategic Foundation
+- **Core requirements** and acceptance criteria
+- **Primary use cases** and user journey mapping
+- **Success metrics** and performance benchmarks
+- **Stakeholder alignment** and business objectives
 
-### Task Tracking
-- **Progress monitoring** with clear milestones
-- **Dependency management** between tasks
-- **Quality gates** at each step
-- **Rollback capabilities** for failed attempts
+#### System Patterns 🏗️ - Architectural Blueprint
+- **Component architecture** with Mermaid flowcharts
+- **Data flow diagrams** and system interactions
+- **File structure** and module organization
+- **Design pattern** implementation guidelines
+
+#### Technical Context 🔧 - Implementation Details
+- **Dependency management** with specific version requirements
+- **Library integration** patterns and best practices
+- **External service** configurations and API specifications
+- **Environment setup** and deployment procedures
+
+### Memory Bank Benefits
+- **Consistent context** across development sessions
+- **Reduced onboarding** time for new team members
+- **Architectural compliance** enforcement
+- **Knowledge preservation** and institutional memory
 
 ---
 
-## Tips
-    1. 3-strike rule
-    2. Context compress or clear for every 10 messages
-    3. Describe your requirements clearly, do not use words like, the UI doesn’t work properly, instead, use something like: “the page crashes on refresh”
-    4. Version control is your escape hatch, commit after each successful iteration with agent 
-    5. Last resort, Burn it down. 
+## 9. Advanced Task Management and Execution Strategy
+**⏱️ Duration: 7-9 minutes**
 
-## MCP servers:
-    1. Figma: we can have our UI design, or system design in Figma, and coding agent pull the design directly and implement it
-    2. JIRA: we can pull the ticket and generate the task and to-do list from the ticket directly
-    3. Context7: always pull the latest library/SDK docs from internet. 
-    4. StageWise: a browser toolbar that connects your frontend UI to your code ai agents in your code editor.
+### Intelligent Task Orchestration
 
-## Best Coding Agent in the Market
-    1. Claude Code:
-        1. Build in feature to break down the user input into to-do list, which make the implementation more accurate
-        2. Can use /clear to clear the context , and use /compact to compress the context
-    2. Roo COde:
-        1. Excellent context auto-compress feature to make the agent fast and cost efficient 
+#### Task Creation and Decomposition
+- **Requirements analysis** from PRDs and user stories
+- **Complexity assessment** and effort estimation
+- **Dependency mapping** and critical path identification
+- **Resource allocation** and timeline planning
+
+#### Execution Methodology
+- **Incremental delivery** with continuous validation
+- **Quality gates** at each development milestone
+- **Pattern consistency** enforcement throughout implementation
+- **Context-aware** decision making based on project history
+
+#### Progress Tracking and Optimization
+- **Real-time progress** monitoring with automated reporting
+- **Dependency resolution** and bottleneck identification
+- **Quality metrics** tracking and trend analysis
+- **Rollback strategies** for failed implementations
+
+### Task Management Best Practices
+- **Single active task** focus to prevent context switching
+- **Clear completion criteria** for each task
+- **Regular checkpoint** reviews and course correction
+- **Documentation updates** with each completed task
+
+---
+
+## 10. Tips
+**⏱️ Duration: 5-7 minutes**
+
+### Essential Development Guidelines
+
+1. **3-strike rule** - Change strategy after three failed attempts
+2. **Context compress or clear for every 10 messages** - Maintain optimal AI performance
+3. **Describe your requirements clearly** - Don't use words like "the UI doesn't work properly", instead use something like: "the page crashes on refresh"
+4. **Version control is your escape hatch** - Commit after each successful iteration with agent
+5. **Last resort: Burn it down** - Start fresh when complexity becomes unmanageable
+
+---
+
+# Vibe Coding Others
+
+## 11. MCP Servers
+**⏱️ Duration: 6-8 minutes**
+
+### Advanced Integration Capabilities
+
+1. **Figma** - We can have our UI design, or system design in Figma, and coding agent pull the design directly and implement it
+2. **JIRA** - We can pull the ticket and generate the task and to-do list from the ticket directly
+3. **Context7** - Always pull the latest library/SDK docs from internet
+4. **StageWise** - A browser toolbar that connects your frontend UI to your code AI agents in your code editor
+
+---
+
+## 12. Best Coding Agent in the Market
+**⏱️ Duration: 4-6 minutes**
+
+### Leading Platform Comparison
+
+#### 1. Claude Code
+- **Built-in feature to break down the user input into to-do list** - Makes implementation more accurate
+- **Can use /clear to clear the context** - Fresh start capability
+- **Can use /compact to compress the context** - Efficient memory management
+
+#### 2. Roo Code
+- **Excellent context auto-compress feature** - Makes the agent fast and cost efficient
