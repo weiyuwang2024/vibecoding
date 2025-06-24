@@ -1,49 +1,42 @@
 # Presentation Transcripts: Mastering AI-Powered Development
 
-**Total Duration: 52-70 minutes**
+**Total Duration: 20 minutes**
 
 ---
 
 ## Introduction
-*Duration: 2-3 minutes*
+*Duration: 1 minute*
 
-Good morning/afternoon everyone. Today we're diving deep into the world of AI-powered development through what we call "Vibe Coding" - a comprehensive approach to leveraging coding agents effectively in your development workflow.
+Good morning/afternoon everyone. Today we're diving deep into vibe coding. Over the next 20 minutes, we'll explore everything from the fundamentals to advanced professional techniques.
 
-Over the next hour, we'll explore everything from the fundamentals to advanced professional techniques. We've structured this presentation into three main sections: Vibe Coding Basics, Advanced techniques, and Professional practices.
-
-Let's begin with the foundation - understanding how to engineer prompts for development excellence.
+Let's begin with the foundation.
 
 ---
 
 # VIBE CODING BASICS
 
-## Section 1: Prompt Engineering for Development Excellence
+## Section 1: Prompts
 *Duration: 8-10 minutes*
 
-Let's start with the cornerstone of effective AI-powered development: prompt engineering. Think of prompts as the communication protocol between you and your AI coding assistant.
+Think of prompts as the communication protocol between you and your AI coding assistant, And there are three types of prompts:
 
-### Global Prompts: Foundation of Consistency
-
-The first concept I want to introduce is Global Prompts. These are your project-wide standards that ensure uniform code quality across all interactions with your AI agent.
-
-Imagine you're working on a large enterprise application. Without global prompts, your AI might generate React components in one style for the login page, and completely different patterns for the dashboard. Global prompts solve this by establishing:
+### Global Prompts: 
+Coding Agent automatically includes the Global prompts in every chat request and applies them for generating code or documents.
 
 - Project-wide standards that ensure every piece of generated code follows your team's conventions
 - Architectural principles enforcement - whether you're following MVC, microservices, or domain-driven design
 - Team conventions like naming patterns, file organization, and coding style guidelines
 - Domain-specific knowledge integration for specialized projects like fintech, healthcare, or e-commerce
 
-### Predefined Prompt Templates: Efficiency at Scale
-
-Next, we have predefined prompt templates. These are your productivity multipliers. Instead of explaining the same requirements repeatedly, you create reusable templates.
+### Predefined Prompts:
+You can also create one or more Predefined Prompts. They won't be automatically included in every chat, but they should be very easy and quick to load. Think them as custom commands
 
 For example, you might have:
-- Role-based workflows: A frontend template that automatically includes accessibility requirements, responsive design principles, and your component library standards
-- Common task automation: Templates for CRUD operations that include proper error handling, validation, and testing patterns
-- Quality gates and review checklists that ensure every generated piece of code meets your standards
-- Standardized documentation generation that maintains consistency across your entire codebase
+- instruction files for different programming languages, documents, or project types.
+- Customized workflows: Define a personal worklfow to automate the common tasks,
+- checklists that ensure every generated piece of code meets your standards
 
-### Dynamic Context Integration
+### Add-hoc Prompts:
 
 Finally, dynamic context integration is what makes modern AI coding truly powerful. This isn't just about chatting with an AI - it's about creating an intelligent development environment.
 
