@@ -111,26 +111,24 @@ A good Coding Agent needs to support both Plan Mode and Action Mode.
 
 ---
 
-## Section 4: Context Management: Maintaining AI Efficiency
+## Section 4: Context Management:
 *Duration: 2-3 minutes*
 
-Context management is often overlooked, but it's really important for keeping your AI working well and getting good results every time.
-
-Think of context as your AI's memory. Just like human memory, it can get messy or lose focus over time. There are two main ways to handle this:
+Context management is really important for keeping your AI working well and getting good results every time.
 
 ### Clear Context
 
-Use clear context when you're starting to work on new features or trying to fix complicated problems.
-
-The good things about clearing context are really important: you get rid of confusion from old conversations that might be making your AI give you the wrong answers. When you clear context, it's like giving your AI a fresh start and clean slate to work with. The AI forgets all the old conversation history but still remembers your project knowledge through memory banks, which we'll talk about later. This is especially helpful when you've been working on one problem for a long time and want to switch to something completely different, or when the AI seems stuck on the wrong approach.
+Use clear context when you're starting to work on new features. This is also helpful when you've been working on one problem for a long time and want to switch to something completely different, or when the AI seems stuck on the wrong approach.
 
 ### Compress Context
 
+Keep in mind that longer context is not always better.
+
 For long coding sessions and when you're working on the same thing over and over, context compression is really helpful.
 
-Keep in mind that longer context is not always better. Compress context will make the key points clearer and also lower the cost and make things faster. When you have too much context, your AI can get confused by all the extra information and might focus on the wrong things. By compressing context, your AI can focus on what really matters for your current work.
+Compress context will make the key points clearer and also lower the cost and make things faster. When you have too much context, your AI can get confused by all the extra information and might focus on the wrong things. By compressing context, your AI can focus on what really matters for your current work.
 
-The process works by having your AI figure out what information is still important and what can be shortened or thrown away. Your AI looks at all the conversation history and decides what parts are most relevant to keep, what parts can be summarized in shorter form, and what parts can be completely removed. This smart filtering keeps the most important information easy to access, makes sure important context doesn't get lost, helps with cost savings because you're not paying for unnecessary information, and maintains continuity when working on connected features. The important thing to understand is that context management isn't just about making things faster - it's about keeping the quality and usefulness of your AI's answers good throughout long development sessions.
+
 
 ---
 
