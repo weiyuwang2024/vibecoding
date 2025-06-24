@@ -38,12 +38,14 @@ For example, you might have:
 
 ### Ad-hoc Prompts:
 
-Ad-hoc prompts are most common used context when talking Coding Agent.
-They might be:
-- user input from the chat windows.
-- files
-- folders
-- urls
+Ad-hoc prompts are the most commonly used context when talking to your Coding Agent.
+They can be different things like:
+- What you type in the chat window when talking to your AI helper
+- Code files from your project that the AI can read and understand
+- Whole folders of code that the AI can look through and work with
+- Web links to documentation or other helpful resources online
+
+These ad-hoc prompts let your Agent understand what you're working on right now and give you the best solution for your specific situation.
 
 ---
 
