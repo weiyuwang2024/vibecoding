@@ -181,69 +181,30 @@ Coding agents may choose unexpected libraries instead of using the tools and lib
 
 ---
 
-## Section 7: Enhanced Development Methodology
+## Section 7: New Development Flow
 *Duration: 2-3 minutes*
 
-To address the limitations we just discussed, we need a structured approach that combines human strategic thinking with AI implementation power.
+To fix the problems we just talked about, we need to reorganize the development flow.
 
-### Developer-Led Process Framework
+#### 1. Drive System Design and Build Project Design Document
 
-This is a five-step process that puts developers in the driver's seat for architectural decisions while leveraging AI for implementation.
+The developer's first job is to drive the system design and build a simple project design document that includes modules and shows the module interfaces. This means you create a clear plan that shows how your whole system will work, what different parts you need, and how these parts will talk to each other. You write down the main modules, what each module does, and how they connect together. This document becomes the base that guides all the work that comes after it. Think of it like making a blueprint before you build a house - it shows everyone what you're trying to build and how all the pieces fit together.
 
-#### 1. Design System Modules
+#### 2. Generate Tasks Based on Feature Requirements
 
-The developer's first responsibility is to design clear system modules:
-- Define clear module boundaries and responsibilities - what each module does and doesn't do
-- Establish communication patterns between components - how modules interact
-- Create modular architecture that supports independent development
-- Document module dependencies and interaction contracts
+Next, you generate tasks based on feature requirements and project documents. If the task is too big, break it down into smaller tasks that are easier to handle. Look at what features you need to build and use your project documents to figure out what work needs to be done. When you have a big feature, don't try to build it all at once. Instead, break it into smaller pieces that are easier to work with. This makes it much easier for the AI helper to understand what you want and build each piece the right way. It's like eating a big meal - you don't try to eat everything at once, you take smaller bites.
 
-This step is crucial because it gives the AI agent a clear framework to work within.
+#### 3. Design and Create Unit Tests for Module Interfaces
 
-#### 2. Outline Module Interfaces
+Design and create unit tests for the module interfaces. Write tests that check if each module works the way it's supposed to work. These tests should cover normal situations when everything works fine, error situations when things go wrong, and edge cases that are unusual but might happen. This is to make sure the new feature works and fits properly with existing code. These tests are also really helpful when we need to change the codebase later because they tell us if we broke anything.
 
-Next, specify the contracts:
-- Define input/output contracts for each module - what goes in, what comes out
-- Establish API signatures and data structures - the exact shape of your interfaces
-- Create error handling protocols and exception management strategies
-- Document interfaces specifically for AI agent reference
+#### 4. Review and Refactor Generated Code
 
-This documentation becomes the AI agent's guide for implementation.
+After the AI Agent builds the feature, you need to review the generated code and refactor the code to make sure the new code follows the same patterns, and remove any duplicate code. Look carefully at what the AI built and check if it matches your design plan. Make sure the new code uses the same style and patterns as the rest of your project. If you find duplicate code or code that doesn't fit your patterns, fix it so everything works together smoothly. This step is really important because it keeps your whole project organized and easy to understand.
 
-#### 3. Design Unit Tests
+#### 5. Update Project Documents
 
-Before any code is written, design your tests:
-- Create test specifications that validate module behavior
-- Define test cases that cover both happy paths and edge cases
-- Establish acceptance criteria for each component
-- Design boundary condition tests that push your modules to their limits
-
-This test-first approach ensures the AI agent understands exactly what success looks like.
-
-#### 4. Refactor for Consistency
-
-After the AI generates code, the developer ensures:
-- Pattern compliance across all generated code
-- Architectural principles are maintained throughout the codebase
-- Naming conventions and code organization follow team standards
-- Performance optimization and elimination of code duplication
-
-#### 5. Review Generated Code
-
-Finally, validate everything:
-- Check implementation against design specifications
-- Assess code quality and maintainability standards
-- Verify integration points and system compatibility
-- Ensure security and performance requirements are met
-
-### AI-Human Collaboration Model
-
-The key insight is role clarity:
-- **Developer designs:** Architecture, interfaces, tests, and standards
-- **AI implements:** Code generation, pattern following, and documentation
-- **Developer validates:** Quality, integration, performance, and security
-
-This collaboration model addresses the limitations we discussed while maximizing the strengths of both human creativity and AI efficiency.
+Finally, update the project documents with new feature changes. Keep your design documents current so they show exactly what you've built. This helps future development work and makes sure your documentation stays useful for Agent to build the next feature.
 
 ---
 
