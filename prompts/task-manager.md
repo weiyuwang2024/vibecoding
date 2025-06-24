@@ -74,7 +74,7 @@ Files to modify:
 2. `rag_evaluation/kb/__init__.py` - Export new class
 
 #### Design Flowchart
-```mermaid
+{{```mermaid
 flowchart TD
     A[BaseVectorDB] --> B[ElasticsearchDB]
     A --> C[ElasticsearchHybridDB]
@@ -103,7 +103,7 @@ flowchart TD
     style F fill:#006400
     style I fill:#00008B
     style L fill:#006400
-```
+```}}
 
 #### Implementation Details
 Data structures to use:
@@ -140,7 +140,6 @@ Key parameters:
 8. `test_reset_collection()` - Test collection reset functionality
 9. `test_batch_operations()` - Test batch insert and search operations
 10. `test_configuration_validation()` - Test configuration parameter validation
-
 ```
 
 
@@ -159,6 +158,7 @@ flowchart TD
     B -->|No| D[Read requirements from file, user inputs or Jira ticket]
     D --> E[Read all memory bank files]
     E --> F[Add new Task in tasks.md in memory-bank folder]
+    F --> G[Task Added Successfully]
 ```
 
 ### Update Task
