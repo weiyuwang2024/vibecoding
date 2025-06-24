@@ -251,7 +251,7 @@ Memory banks help your AI coding agent remember important things about your proj
 
 Task management is a combined flow that uses both plan mode and action mode together. You take your PRD (Product Requirements Document) and project documents to create tasks. Then you can talk to your AI agent to update and improve the task until it's ready to build.
 
-The whole process starts when you take your product requirements and project design documents that tell you what you need to build and how your system should work, then you use these documents to make one clear task without trying to plan everything at once - just focus on the next thing you need to build. Once you have a basic task, you can talk back and forth with your AI agent to make the task better by asking questions, adding details, and making sure the task is clear and doable, which is like using plan mode to think through the task before you start building. When the task is ready and well planned out, your AI agent switches to action mode to actually build the feature by writing code, creating files, and making all the changes you need to get the work done. After the task is finished and working, you review what was built to make sure it's good quality and then update your project documents to keep everything organized and ready for the next task. This back-and-forth between planning and building makes sure each task is well thought out and fits properly with your project, creating a smooth flow that combines the best parts of both plan mode and action mode working together.
+The whole process starts when you take your product requirements and project design documents that tell you what you need to build and how your system should work, then you use these documents to make one clear task - just focus on the next thing you need to build. Once you have a basic task, you can talk back and forth with your AI agent to make the task better by asking questions, adding details, and making sure the task is clear and doable, which is like using plan mode to think through the task before you start building. When the task is ready and well planned out, your AI agent switches to action mode to actually build the feature by writing code, creating files, and making all the changes you need to get the work done. After the task is finished and working, you review what was built to make sure it's good quality and then update your project documents to keep everything organized and ready for the next task. This back-and-forth between planning and building makes sure each task is well thought out and fits properly with your project, creating a smooth flow that combines the best parts of both plan mode and action mode working together.
 
 ### 2. Don't Build Long Task Lists - Keep Dependencies Simple
 
@@ -301,49 +301,27 @@ These aren't just tips - they're battle-tested strategies from teams shipping pr
 ## Section 11: MCP Servers
 *Duration: 1-2 minutes*
 
-MCP (Model Context Protocol) servers represent the cutting edge of AI development integration. These are specialized servers that extend your AI agent's capabilities by connecting to external tools and services.
+MCP servers, which stands for Model Context Protocol servers, are special helper programs that make your AI coding agent much more powerful by connecting it to other tools and services that you use every day. Think of MCP servers like bridges that let your AI agent talk to and work with all the different programs and websites you use for development work.
 
-### Advanced Integration Capabilities
+### How MCP Servers Help You Build Better Software
 
-#### 1. Figma Integration
+#### 1. Figma Integration - Turn Designs into Code Automatically
 
-This is a game-changer for frontend development. With Figma MCP servers:
-- Your AI agent can pull UI designs directly from Figma
-- It can analyze design specifications and generate corresponding React, Vue, or Angular components
-- Design tokens and style guides are automatically translated into CSS or styled-components
-- Changes in Figma can trigger automatic code updates
+This connection between your AI agent and Figma is really amazing for building websites and apps. When you have a Figma MCP server working with your AI agent, your agent can look at the designs you made in Figma and understand exactly what they should look like when built as real code. Your AI agent can pull the UI designs directly from your Figma files, study all the design details like colors, fonts, spacing, and layout, then create working React, Vue, or Angular components that match your design perfectly. The AI agent can also read your design tokens and style guides from Figma and turn them into proper CSS code or styled-components that follow your design system. Even better, when you make changes to your designs in Figma, the MCP server can tell your AI agent about these changes and automatically update your code to match the new design. Imagine working on a new dashboard design in Figma, and then having your AI agent build the complete React code for it, including all the responsive breakpoints that make it work on phones and tablets, plus all the accessibility features that help people with disabilities use your app.
 
-Imagine designing a new dashboard in Figma and having your AI agent generate the complete React implementation, including responsive breakpoints and accessibility features.
+#### 2. JIRA Integration - Connect Project Management to Code Building
 
-#### 2. JIRA Integration
+JIRA integration makes managing your development projects much easier and more organized. With a JIRA MCP server, your AI agent can read ticket details directly from your JIRA project management system and bring all that information into your development environment where you write code. This means your AI agent can look at JIRA tickets and create detailed task lists and to-do items that match exactly what needs to be built according to your project plan. As you work on building features, the MCP server can automatically update the ticket status in JIRA to show your progress, so your project manager and team members always know what's been finished and what's still being worked on. The system can also connect your code commits to specific JIRA tickets, which creates a complete trail showing exactly what code changes were made for each feature or bug fix. This creates a smooth flow from project planning in JIRA all the way to delivering finished code, with everything connected and tracked properly.
 
-Project management becomes seamless:
-- Pull ticket details directly into your development environment
-- Generate comprehensive task and to-do lists from JIRA tickets
-- Automatically update ticket status as development progresses
-- Link code commits to specific tickets for full traceability
+#### 3. Context7 - Always Have the Latest Documentation
 
-This creates a seamless flow from project planning to code delivery.
+Context7 solves a big problem that many developers face - working with old or outdated documentation that leads to using deprecated code patterns that don't work anymore. This MCP server always pulls the latest library and SDK documentation directly from the internet, so your AI agent is always working with the most current information about how to use different programming libraries and tools. The system makes sure your AI agent knows about the newest API specifications and features, and it automatically updates when libraries release new versions with changes or improvements. Context7 also gives your AI agent real-time access to community best practices and examples from other developers, so you get code that follows current standards and works well with modern development practices. This means you never have to worry about your AI agent suggesting old ways of doing things that might not work with current versions of libraries and frameworks.
 
-#### 3. Context7
+#### 4. StageWise - Connect Your Website to Your Code Editor
 
-This solves the documentation problem:
-- Always pulls the latest library and SDK documentation from the internet
-- Ensures your AI agent is working with current API specifications
-- Automatically updates when libraries release new versions
-- Provides real-time access to community best practices and examples
+StageWise is especially powerful when you're building full-stack applications that have both frontend user interfaces and backend server code. This tool works as a browser toolbar that creates a direct connection between your frontend UI running in the browser and your AI coding agents in your code editor. When you're looking at your website in the browser, you can click on any UI element like a button, form, or menu, and StageWise will show you the exact code that creates that element in your editor. When you make changes to your code in the editor, you can see those changes reflected immediately in the browser without having to refresh or restart anything. This is really helpful for debugging UI problems because you can connect visual issues you see in the browser directly to the code solutions in your editor, making it much faster to find and fix problems.
 
-No more outdated documentation leading to deprecated code patterns.
-
-#### 4. StageWise
-
-This is particularly powerful for full-stack development:
-- A browser toolbar that connects your frontend UI directly to your code AI agents
-- Click on any UI element and get the corresponding code
-- Make changes in your editor and see them reflected immediately in the browser
-- Debug UI issues by connecting visual problems to code solutions
-
-These integrations transform AI agents from isolated tools into integrated parts of your entire development ecosystem.
+All of these MCP server integrations work together to change your AI agent from being just a code writing tool into being a complete part of your entire development workflow that connects to all the other tools and services you use to build software.
 
 ---
 
