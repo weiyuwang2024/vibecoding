@@ -163,41 +163,21 @@ The important thing to remember is that coding agents work best when the task is
 ## Section 6: Current Limitations: Where Agents Struggle ⚠️
 *Duration: 2-3 minutes*
 
-Understanding limitations is just as important as understanding strengths. Let me walk you through the four main areas where AI agents currently struggle.
+### 1. Adding New Features Without the Big Picture
 
-### 1. Large Project Integration
+Coding agents often add new features without understanding the design. They don't see how the whole system works together, so they might build something that doesn't fit well with what already exists. For example, they might create a new way to handle user login without knowing that there's already a security system in place that handles authentication differently. This creates conflicts and problems that are hard to fix later.
 
-AI agents often struggle with the big picture. They might:
-- Add features without understanding the broader design implications
-- Miss how their changes affect complex system architecture
-- Fail to maintain consistency across different modules
+### 2. Failed to Maintain Consistency Across Different Modules
 
-For example, an AI might create a new authentication method without realizing it conflicts with the existing security architecture.
+Coding agents fail to maintain consistency across different modules in your project. Each part of your code might be written in a different style or follow different patterns, even though they should all work together smoothly. One module might handle errors one way, while another module handles the same type of errors completely differently. This makes the codebase confusing and harder to maintain over time.
 
-### 2. Code Duplication Issues
+### 3. Generate Duplicate Code
 
-This is a common problem I see:
-- AI agents generate redundant implementations because they don't always recognize existing functionality
-- They miss existing utility functions that could be reused
-- They create parallel solutions instead of extending existing ones
+Coding agents may generate duplicate code because they don't always recognize existing functionality that's already been built. They might create a new function to format dates when there's already a date formatting function somewhere else in the codebase. This happens because they can't see or understand all the existing code, especially in large projects. You end up with multiple pieces of code that do the same thing, which makes your project bigger and harder to maintain.
 
-I've seen codebases where AI agents created three different date formatting functions because they weren't aware of the existing utility library.
+### 4. Introduce unexpected Libraries
 
-### 3. Pattern Inconsistency
-
-AI agents can break established patterns:
-- They might not follow existing system patterns like MVC or established design patterns
-- They ignore established conventions that aren't explicitly documented
-- They break architectural principles that are implicit in the codebase
-
-### 4. Library Utilization
-
-Finally, AI agents often:
-- Don't leverage available libraries effectively
-- Choose alternative solutions unnecessarily, reinventing the wheel
-- Miss optimization opportunities that existing libraries provide
-
-The solution to these limitations isn't to avoid AI agents - it's to implement the enhanced development methodology we'll discuss next.
+Coding agents may choose unexpected libraries instead of using the tools and libraries that are already part of your project. They might suggest adding new libraries that do the similar job as what you already have, or pick libraries that don't fit well with your existing setup. This can cause conflicts and make your project harder to manage. 
 
 ---
 
