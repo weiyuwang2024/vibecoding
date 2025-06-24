@@ -47,9 +47,12 @@ They can be different things like:
 
 These ad-hoc prompts let your Agent understand what you're working on right now and give you the best solution for your specific situation.
 
+All the popular Coding Agents you can use today support these three kinds of prompts
+
+
 ---
 
-## Section 2: Select LLMs
+## Section 2: Support Multiple LLMs
 *Duration: 2 minutes*
 
 ### Most Common Models used for Vibe Coding
@@ -70,43 +73,40 @@ You might want to have a coding agent that has a feature to quickly switch betwe
 
 ---
 
-## Section 3: Development Modes: Strategic vs Tactical Execution
-*Duration: 7-9 minutes*
+## Section 3: Agent Mode
+*Duration: 3-4 minutes*
 
-One of the most important concepts in vibe coding is understanding when to plan versus when to execute. Let me introduce you to our two primary development modes.
+### Plan Mode 🧠 - Thinking and Planning Phase
 
-### Plan Mode 🧠 - Strategic Architecture Phase
+Plan Mode is when you want your AI to think and plan things out. Use this when you're working on complicated features, designing systems, or figuring out how to fix old messy code.
 
-Plan Mode is your strategic thinking phase. Use this when you're dealing with complex feature planning, system design, or technical debt assessment.
+In Plan Mode, your Agent works on:
+- Designing how your system will work - figuring out how different parts will talk to each other before you write any code
+- Understanding how parts connect and depend on each other - knowing what happens when you change one thing
+- Checking for problems and seeing if your ideas will actually work - finding issues before they become big problems
+- Estimating how much work things will take and planning timelines - getting realistic ideas about how long things will take
 
-In Plan Mode, your AI focuses on:
-- System architecture design and validation - mapping out how components will interact before writing a single line of code
-- Component interaction mapping and dependency analysis - understanding the ripple effects of your architectural decisions
-- Risk assessment and technical feasibility studies - identifying potential bottlenecks or challenges before they become problems
-- Resource estimation and timeline planning - getting realistic projections for your development effort
+The important thing about Plan Mode is that it's only for thinking and planning - It don't write any actual code during this phase. You can talk to AI Agent back and forth to make sure Agent understand all the details and create a complete project plan before it start building anything.
 
-The crucial point here is that Plan Mode involves no code execution. It's pure strategic thinking. You're designing the blueprint before construction begins.
+### Action Mode ⚡ - Building and Making Things
 
-### Action Mode ⚡ - Implementation and Execution
+Action Mode is where you actually get things done. This is for building features, fixing bugs, testing your code, and putting it live.
 
-Action Mode is where the rubber meets the road. This is for feature implementation, bug fixes, testing, and deployment.
+In Action Mode, your Agent does:
+- Writing and changing code - creating and updating code as you work together
+- Managing files and organizing your project - making folders, organizing files, keeping your project neat
+- Running commands and managing your development setup - running tests, starting servers, handling the tools you need
+- Testing and checking that things work - making sure your code does what it's supposed to do
 
-In Action Mode, your AI engages in:
-- Real-time code generation and modification - writing and updating code as you work
-- File system operations and project structure updates - creating directories, organizing files, managing project structure
-- Command execution and environment management - running tests, starting servers, managing dependencies
-- Testing and validation cycles - ensuring your code works as expected
-- Direct system interaction and debugging - troubleshooting issues as they arise
+### When to Switch Between Modes
 
-### Mode Transition Strategy
+The smart part is knowing when to switch between these modes:
 
-The magic happens in knowing when to transition between modes:
+**Plan → Action:** Always finish your planning and design checking before you start building. I've seen many projects fail because developers skipped the planning part and jumped straight into writing code.
 
-**Plan → Action:** Always complete your design validation before jumping into implementation. I've seen too many projects fail because developers skipped the planning phase and dove straight into coding.
+**Action → Plan:** Go back to planning mode when things get too complicated for what you're currently doing. If you find yourself making big design decisions while you're trying to build, it's time to stop and plan.
 
-**Action → Plan:** Step back to planning mode when complexity exceeds your current scope. If you find yourself making architectural decisions on the fly during implementation, it's time to pause and plan.
-
-Some teams use a hybrid approach with micro-planning within action cycles for complex features. The key is being intentional about which mode you're in and why.
+Some teams use a mixed approach where they do small planning sessions while they're building for complicated features. The important thing is being clear about which mode you're in and why you chose it.
 
 ---
 
