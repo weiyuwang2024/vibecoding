@@ -66,6 +66,8 @@ There are not too many performance differences among these LLMs for daily common
 
 We need multiple LLMs to cross check plans and cross validate or review the generated code. When one AI creates a plan, you can ask another AI to review it and catch any problems. When one AI writes code, another AI can check it for bugs or better ways to do things. This gives you more confidence that your code is good and your plans will work.
 
+You might want to have a coding agent that has a feature to quickly switch between different LLMs, or have multiple coding agents running in your code editor at the same time. This way you can easily get different opinions and check your work without switching between different tools.
+
 ---
 
 ## Section 3: Development Modes: Strategic vs Tactical Execution
