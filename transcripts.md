@@ -49,22 +49,21 @@ These ad-hoc prompts let your Agent understand what you're working on right now 
 
 ---
 
-## Section 2: Multi-Model Strategy: Choosing the Right AI for the Job
+## Section 2: Select LLMs
 *Duration: 2 minutes*
-
-Not all AI models are created equal, and understanding their strengths is crucial for effective vibe coding.
 
 ### Most Common Models used for Vibe Coding
 
-Let me walk you through the three most commonly used models in professional vibe coding environments:
+Let me walk you through the three most popular models that coding teams use:
 
-**Claude Sonnet 3.7/4.0** is your advanced reasoning engine. It excels at understanding complex code relationships and architectural decisions. When you're designing a new microservice architecture or refactoring a legacy system, Claude's exceptional code understanding capabilities make it ideal for these complex architectural and coding tasks.
+**Claude Sonnet 3.7/4.0** is really good at complex architectural and coding tasks. It's great at understanding how different parts of your code work together and making smart decisions about code structure. When you're building complicated systems or fixing messy old code, Claude's strong understanding of code relationships makes it perfect for these tough jobs.
 
-**Gemini 2.5 Pro** brings versatility to the table. It's your go-to for multimodal tasks - think analyzing UI mockups and generating corresponding code, or processing documentation images. Its strong visual processing capabilities combined with fast response times make it perfect for rapid prototyping and visual-to-code workflows.
+**Gemini 2.5 Pro** is good at coding and documentation work. It can look at pictures of designs and turn them into working code, or read through documentation and help you understand it. Its ability to work with different types of information like images and text, plus its fast responses, makes it great for quick prototyping and turning visual designs into code.
 
-**GPT 4.1** is your reliable workhorse. It provides balanced performance across standard development workflows. For everyday coding tasks, bug fixes, and routine development work, GPT 4.1 offers consistent, dependable results.
+**GPT 4.1** works well across standard development workflows. It's your reliable helper for everyday coding work like fixing bugs, writing regular features, and handling routine development tasks. It gives you steady, dependable results for most common programming jobs.
 
-The key is matching the right model to your specific task requirements.
+There are not too much performance differences among these LLMs for daily common coding tasks. Why do we need multiple LLMs?
+We need the multiple LLMs for cross check plans, cross validate/review the generated codes
 
 ---
 
