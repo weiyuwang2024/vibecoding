@@ -238,15 +238,9 @@ Technical context includes:
 - External dependencies - outside services and APIs that your project connects to and relies on
 - Environment setup - how to set up your development environment and deploy your application to make it work
 
-### Memory Bank Good Things
+### Why Memory Bank
 
-The good things are really big:
-- **Same context** across development sessions - your AI helper remembers project details even after context clears
-- **Less time to learn** for new team members - memory banks work like complete project documentation
-- **Following rules** enforcement - the AI helper automatically follows established patterns
-- **Knowledge keeping** and team memory - important project knowledge doesn't leave when team members go away
-
-Memory banks change AI helpers from session-based tools into long-lasting project partners that remember everything about your work.
+Memory banks help your AI coding agent remember important things about your project even when you start new conversations. Without memory banks, you have to explain your project setup, coding rules, and how your system works every single time you talk to your AI agent. This wastes a lot of time and makes your AI give you answers that don't fit your project. With memory banks, your AI agent already knows your project details, so it can give you better code that follows your patterns and works well with what you already built. Think of it like giving your AI agent a notebook where it writes down everything important about your project, so it never forgets and always helps you in the right way.
 
 ---
 
