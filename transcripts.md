@@ -1,6 +1,6 @@
 # Presentation Transcripts: Mastering AI-Powered Development
 
-**Total Duration: 18-20 minutes**
+**Total Duration: 22-25 minutes**
 
 ---
 
@@ -245,7 +245,7 @@ Memory banks help your AI coding agent remember important things about your proj
 ---
 
 ## Section 9: Task Management:
-*Duration: 2-3 minutes*
+*Duration: 3-4 minutes*
 
 ### 1. Task Management is Plan Mode and Action Mode Working Together
 
@@ -299,7 +299,7 @@ These aren't just tips - they're battle-tested strategies from teams shipping pr
 ---
 
 ## Section 11: MCP Servers
-*Duration: 1-2 minutes*
+*Duration: 3-4 minutes*
 
 MCP servers, which stands for Model Context Protocol servers, are special helper programs that make your AI coding agent much more powerful by connecting it to other tools and services that you use every day. Think of MCP servers like bridges that let your AI agent talk to and work with all the different programs and websites you use for development work.
 
