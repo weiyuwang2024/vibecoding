@@ -208,52 +208,45 @@ Finally, update the project documents with new feature changes. Keep your design
 
 ---
 
-## Section 8: Memory Banks: Persistent Project Intelligence
+## Section 8: Memory Banks: Persistent Project Memory
 *Duration: 2-3 minutes*
 
-Memory banks are one of the most powerful features in advanced vibe coding. They provide persistent project intelligence that survives context clears and session changes.
+### Organized Knowledge Management System
 
-### Structured Knowledge Management System
+Memory banks are the long-term memory of your project, made up of three important parts:
 
-Think of memory banks as your project's institutional memory, organized into three key components:
+#### Project Brief 📋 - Basic Foundation
 
-#### Project Brief 📋 - Strategic Foundation
+The project brief has:
+- Project requirements and success rules - what you're building and how you'll know it worked
+- Main use cases - who uses your system and how they use it
+- Success numbers and performance goals - ways to measure if your project is doing well
+- Team agreement and business goals - making sure everyone understands why you're building this
 
-The project brief contains:
-- Core requirements and acceptance criteria - what you're building and how you'll know it's successful
-- Primary use cases and user journey mapping - who uses your system and how
-- Success metrics and performance benchmarks - measurable goals for your project
-- Stakeholder alignment and business objectives - ensuring everyone understands the why behind the what
+#### System Patterns 🏗️ - Building Blueprint
 
-This becomes your AI agent's north star, ensuring every decision aligns with project goals.
+System patterns write down:
+- System architecture - pictures that show how your system is built
+- Module explanation with what are the input and output
+- Data flow pictures and system connections - how information moves through your system
+- File and folder structures - how your code files are arranged and organized
 
-#### System Patterns 🏗️ - Architectural Blueprint
-
-System patterns document:
-- Component architecture with Mermaid flowcharts - visual representations of your system structure
-- Data flow diagrams and system interactions - how information moves through your system
-- File structure and module organization - the physical layout of your codebase
-- Design pattern implementation guidelines - consistent approaches to common problems
-
-These patterns ensure architectural consistency across all AI-generated code.
-
-#### Technical Context 🔧 - Implementation Details
+#### Technical Context 🔧 - Building Details
 
 Technical context includes:
-- Dependency management with specific version requirements - exactly which libraries and versions you're using
-- Library integration patterns and best practices - how to properly use your chosen tools
-- External service configurations and API specifications - integration details for third-party services
-- Environment setup and deployment procedures - how to run and deploy your application
+- Libraries used with versions - what code libraries and tools your project needs to work properly
+- External dependencies - outside services and APIs that your project connects to and relies on
+- Environment setup - how to set up your development environment and deploy your application to make it work
 
-### Memory Bank Benefits
+### Memory Bank Good Things
 
-The benefits are substantial:
-- **Consistent context** across development sessions - your AI agent remembers project details even after context clears
-- **Reduced onboarding** time for new team members - memory banks serve as comprehensive project documentation
-- **Architectural compliance** enforcement - the AI agent automatically follows established patterns
-- **Knowledge preservation** and institutional memory - critical project knowledge doesn't walk out the door with departing team members
+The good things are really big:
+- **Same context** across development sessions - your AI helper remembers project details even after context clears
+- **Less time to learn** for new team members - memory banks work like complete project documentation
+- **Following rules** enforcement - the AI helper automatically follows established patterns
+- **Knowledge keeping** and team memory - important project knowledge doesn't leave when team members go away
 
-Memory banks transform AI agents from session-based tools into persistent project partners.
+Memory banks change AI helpers from session-based tools into long-lasting project partners that remember everything about your work.
 
 ---
 
