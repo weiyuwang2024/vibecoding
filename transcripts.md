@@ -62,8 +62,9 @@ Let me walk you through the three most popular models that coding teams use:
 
 **GPT 4.1** works well across standard development workflows. It's your reliable helper for everyday coding work like fixing bugs, writing regular features, and handling routine development tasks. It gives you steady, dependable results for most common programming jobs.
 
-There are not too much performance differences among these LLMs for daily common coding tasks. Why do we need multiple LLMs?
-We need the multiple LLMs for cross check plans, cross validate/review the generated codes
+There are not too many performance differences among these LLMs for daily common coding tasks. So why do we need multiple LLMs?
+
+We need multiple LLMs to cross check plans and cross validate or review the generated code. When one AI creates a plan, you can ask another AI to review it and catch any problems. When one AI writes code, another AI can check it for bugs or better ways to do things. This gives you more confidence that your code is good and your plans will work.
 
 ---
 
