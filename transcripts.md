@@ -128,6 +128,7 @@ For long coding sessions and when you're working on the same thing over and over
 
 Compress context will make the key points clearer and also lower the cost and make things faster. When you have too much context, your AI can get confused by all the extra information and might focus on the wrong things. By compressing context, your AI can focus on what really matters for your current work.
 
+Most of the current coding agents support manually clearing and compressing context, which means you have to tell them when to do it. However, Roo Code performs extremely well by automatically compressing the context without you having to ask. This automatic feature makes it more cost efficient and faster than other coding agents because it's always managing your context in the background, so you don't have to think about it or remember to do it yourself.
 
 
 ---
