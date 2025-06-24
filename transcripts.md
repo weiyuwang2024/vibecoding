@@ -16,38 +16,34 @@ Let's begin with the foundation.
 # VIBE CODING BASICS
 
 ## Section 1: Prompts
-*Duration: 8-10 minutes*
+*Duration: 3 minutes*
 
-Think of prompts as the communication protocol between you and your AI coding assistant, And there are three types of prompts:
+There are three types of prompts you can use:
 
-### Global Prompts: 
-Coding Agent automatically includes the Global prompts in every chat request and applies them for generating code or documents.
+### Global Prompts:
+Your coding tool automatically adds these Global prompts to every chat message and uses them when creating code or documents.
 
-- Project-wide standards that ensure every piece of generated code follows your team's conventions
-- Architectural principles enforcement - whether you're following MVC, microservices, or domain-driven design
-- Team conventions like naming patterns, file organization, and coding style guidelines
-- Domain-specific knowledge integration for specialized projects like fintech, healthcare, or e-commerce
+- Rules for your whole project that make sure every piece of code follows your team's standards
+- Making sure your code follows system patterns - like MVC, microservices, or other design approaches
+- Your team's habits for naming things, organizing files, and writing code in a consistent style
+- Special domain knowledge for project like banking, healthcare, or online shopping
 
 ### Predefined Prompts:
-You can also create one or more Predefined Prompts. They won't be automatically included in every chat, but they should be very easy and quick to load. Think them as custom commands
+You can also make one or more pre-defined prompts. They won't be added to every chat automatically, but they should be very easy and fast to use. Think of them as your own custom commands.
 
 For example, you might have:
-- instruction files for different programming languages, documents, or project types.
-- Customized workflows: Define a personal worklfow to automate the common tasks,
-- checklists that ensure every generated piece of code meets your standards
+- Instruction files for different coding languages, documents, or types of projects
+- Your own workflows: Create a personal process to handle common tasks automatically
+- Checklists that make sure every piece of code you create meets your quality standards
 
-### Add-hoc Prompts:
+### Ad-hoc Prompts:
 
-Finally, dynamic context integration is what makes modern AI coding truly powerful. This isn't just about chatting with an AI - it's about creating an intelligent development environment.
-
-Your AI agent can be:
-- Chat-based for direct conversational programming
-- File-aware, understanding your entire codebase structure and making intelligent modifications
-- Directory-scoped, comprehending how different modules interact
-- Web-integrated, pulling in the latest documentation and API references
-- Terminal-connected, providing real-time debugging and execution feedback
-
-This creates a development experience where your AI assistant truly understands your project context, not just individual code snippets.
+Ad-hoc prompts are most common used context when talking Coding Agent.
+They might be:
+- user input from the chat windows.
+- files
+- folders
+- urls
 
 ---
 
