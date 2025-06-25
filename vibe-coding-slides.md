@@ -1,6 +1,4 @@
-# Mastering AI-Powered Development: A Comprehensive Guide to Coding Agents
-
-
+# Vibe Coding
 
 ---
 
@@ -8,69 +6,83 @@
 
 ## 1. Prompts
 
-
 ### Three Types of Prompts:
 
-**Global Prompts:** Automatically added to every chat
-- Project standards and team conventions
-- System patterns (MVC, microservices)
-- Domain knowledge (banking, healthcare)
+**Global Prompts:** Your coding tool adds these to every chat automatically
+- Rules for your whole project - make sure code follows team standards
+- System patterns like MVC, microservices, or other design approaches
+- Team habits for naming, organizing files, and writing consistent code
+- Special knowledge for your domain (banking, healthcare, shopping)
 
-**Predefined Prompts:** Custom commands for efficiency
-- Language-specific instructions
-- Workflow automation
-- Quality checklists
+**Predefined Prompts:** Easy to load custom commands
+- Instructions for different coding languages or project types
+- Your own workflows to handle common tasks automatically
+- Checklists to make sure code meets quality standards
 
-**Ad-hoc Prompts:** Real-time context
-- Chat messages
-- Code files and folders
-- Documentation links
+**Ad-hoc Prompts:** Most commonly used context
+- What you type in the chat window
+- Code files from your project that AI can read
+- Whole folders of code that AI can work with
+- Web links to documentation or helpful resources
+
+**Key Point:** All popular coding agents support these three types of prompts
 
 ---
 
 ## 2. Support Multiple LLMs
 
-
 ### Popular Models:
-- **Claude Sonnet 3.7/4.0** - Complex architecture & code relationships
-- **Gemini 2.5 Pro** - Visual design to code, fast prototyping
-- **GPT 4.1** - Reliable everyday development tasks
+- **Claude Sonnet 3.7/4.0** - Great at complex tasks and understanding how code parts work together
+- **Gemini 2.5 Pro** - Good at turning visual designs into code, documentation, and fast responses
+- **GPT 4.1** - Balanced LLM that handles common tasks very well
 
 ### Why Multiple LLMs?
-- Cross-check plans and validate code
-- Get different perspectives
-- Increase confidence in solutions
+- **Cross-check plans** - One AI creates plan, another AI reviews it
+- **Cross-validate code** - One AI writes code, another checks for bugs
+- **Get different opinions** - More confidence that your code is good
+
+**Key Point:** Not much performance difference for daily tasks, but multiple LLMs help catch problems
 
 ---
 
 ## 3. Agent Mode
 
+### Plan Mode 🧠 - Thinking and Planning Phase
+- Design how your system will work before writing code
+- Understand how parts connect and depend on each other
+- Check for problems and see if ideas will actually work
+- Estimate work time and plan realistic timelines
+- **Important: No code writing** - only thinking and planning
+- Talk back and forth with AI to make sure it understands everything
 
-### Plan Mode 🧠 - Think First
-- System design and architecture
-- Component dependencies
-- Risk assessment
-- **No code execution** - pure planning
+### Action Mode ⚡ - Building and Making Things
+- Write and change code as you work together
+- Manage files and organize your project
+- Run commands and handle development tools
+- Test and check that things work correctly
 
-### Action Mode ⚡ - Build It
-- Code generation and modification
-- File operations
-- Command execution
-- Testing and validation
+### When to Switch:
+- **Plan → Action:** Always finish planning before building
+- **Action → Plan:** Go back when things get too complicated
 
-### Key Rule: Plan → Action (finish planning before building)
+**Key Rule:** Good coding agents need both Plan Mode and Action Mode
 
 ---
 
 ## 4. Context Management
 
-
 ### Two Strategies:
-- **Clear Context** - Fresh start for new features
-- **Compress Context** - Maintain continuity, optimize performance
+- **Clear Context** - Fresh start for new features or when switching to different work
+- **Compress Context** - Keep key points clear, lower cost, make things faster
 
 ### Best Practice:
-Longer context ≠ better results. Compress regularly for speed and cost efficiency.
+- Longer context is NOT always better
+- Too much context confuses AI and makes it focus on wrong things
+- Compress context to help AI focus on what really matters
+- Most agents support manual clearing and compressing
+- **Roo Code** does automatic context compression without you asking
+
+**Key Point:** Good context management keeps AI working well and gets better results
 
 ---
 
@@ -78,99 +90,230 @@ Longer context ≠ better results. Compress regularly for speed and cost efficie
 
 ## 5. AI Strengths
 
-
 ### Where Agents Excel ✅
-1. **Prototypes** - Quick demos (not production-ready)
-2. **Known Algorithms** - Well-documented patterns
+1. **Building Prototypes** - Quick working demos to test ideas fast
+   - Good for showing concepts to stakeholders
+   - **Warning:** Code isn't organized for long-term projects
+
+2. **Known Algorithms** - Standard computer science solutions
+   - Search algorithms, sorting methods, graph traversal
+   - Well-documented patterns that have been written many times
+
 3. **Template Code** - Similar features from examples
+   - Show AI one feature, it can create similar ones
+   - Great for API endpoints, UI components, following existing patterns
+
 4. **Unit Tests** - Comprehensive test coverage
+   - Think of different test cases and edge cases you might forget
+   - Check normal situations, errors, and unusual inputs
+
+**Key Point:** AI works best when tasks are well-defined and follow known patterns
 
 ---
 
 ## 6. AI Limitations
 
-
 ### Where Agents Struggle ⚠️
-1. **Big Picture** - Adding features without system understanding
-2. **Consistency** - Different patterns across modules
-3. **Duplicate Code** - Missing existing functionality
-4. **Library Choices** - Unexpected dependencies
+1. **Adding Features Without Big Picture**
+   - Don't understand how whole system works together
+   - Build things that don't fit with existing code
+   - Create conflicts that are hard to fix later
+
+2. **Failed Consistency Across Modules**
+   - Each part written in different style
+   - Different error handling in similar situations
+   - Makes codebase confusing and hard to maintain
+
+3. **Generate Duplicate Code**
+   - Don't recognize existing functionality already built
+   - Create new functions when similar ones already exist
+   - Make projects bigger and harder to maintain
+
+4. **Introduce Unexpected Libraries**
+   - Choose new libraries instead of using existing tools
+   - Pick libraries that don't fit with current setup
+   - Cause conflicts and make project harder to manage
+
+**Key Point:** These problems happen because AI can't see the whole project at once
 
 ---
 
 ## 7. New Development Flow
 
+### Developer-Led Process to Fix AI Problems:
 
-### Developer-Led Process:
-1. **Design System** - Create project blueprint
-2. **Break Down Tasks** - Smaller, manageable pieces
-3. **Design Tests** - Define success criteria
-4. **Review & Refactor** - Ensure consistency
-5. **Update Docs** - Keep knowledge current
+1. **Drive System Design** - Create simple project design document
+   - Show how whole system works and what parts you need
+   - Write down main modules and how they connect
+   - Like making blueprint before building house
+
+2. **Generate Tasks from Requirements** - Break big features into smaller tasks
+   - Look at features you need and figure out work to be done
+   - Don't try to build everything at once - take smaller bites
+   - Easier for AI to understand and build each piece right
+
+3. **Design Unit Tests for Module Interfaces**
+   - Write tests that check if each module works correctly
+   - Cover normal situations, errors, and edge cases
+   - Make sure new features work and fit with existing code
+
+4. **Review and Refactor Generated Code**
+   - Check if AI-built code matches your design plan
+   - Make sure new code uses same style as rest of project
+   - Remove duplicate code and fix anything that doesn't fit
+
+5. **Update Project Documents**
+   - Keep design documents current with what you built
+   - Help future development and keep documentation useful
+
+**Key Point:** Developer leads design, AI helps with implementation
 
 ---
 
-## 8. Memory Banks
-
+## 8. Memory Banks: Persistent Project Memory
 
 ### Three Components:
-- **Project Brief 📋** - Requirements, use cases, success metrics
-- **System Patterns 🏗️** - Architecture, data flow, file structure
-- **Technical Context 🔧** - Libraries, dependencies, environment
+
+**Project Brief 📋** - Basic Foundation
+- Project requirements and success rules
+- Main use cases - who uses system and how
+- Success numbers and performance goals
+- Team agreement and business goals
+
+**System Patterns 🏗️** - Building Blueprint
+- System architecture pictures
+- Module explanation with inputs and outputs
+- Data flow pictures and system connections
+- File and folder structures
+
+**Technical Context 🔧** - Building Details
+- Libraries used with versions
+- External dependencies and APIs
+- Environment setup and deployment instructions
 
 ### Why Memory Banks?
-Persistent project knowledge across sessions - no need to re-explain every time.
+- **Long-term memory** for your project across conversations
+- **No re-explaining** - AI remembers project details automatically
+- **Better code** that follows your patterns and works with existing system
+- **Save time** - don't waste time explaining same things over and over
+
+**Key Point:** Like giving AI a notebook to remember everything important about your project
 
 ---
 
 ## 9. Task Management
 
-
 ### Combined Plan + Action Flow:
-1. Take PRD → Create focused task
-2. Refine task through conversation (Plan Mode)
-3. Execute when ready (Action Mode)
-4. Review and update docs
+1. **Take PRD and project docs** → Create one clear task
+2. **Talk with AI to improve task** (Plan Mode) - ask questions, add details
+3. **AI builds the feature** (Action Mode) - write code, create files
+4. **Review what was built** - check quality and update project docs
 
-### Key Insight: 
-**Don't build long task lists** - Short lists are more reliable and flexible.
+### Why Short Task Lists Work Better:
+- **Long task chains are unreliable** - hard to keep track of dependencies
+- **Hard to keep system design clean** - code doesn't fit together well
+- **Less flexible** - can't adjust when you learn new things
+- **Better quality** - focus on few tasks, build each one well
 
----
+### Best Practice:
+- Plan just a few tasks ahead
+- Finish them completely with good quality
+- Plan next tasks based on what you learned
+- Keep project organized and development smooth
 
-## 10. Tips
-
-
-### Battle-Tested Rules:
-1. **3-Strike Rule** - Change approach after 3 failures
-2. **10-Message Rule** - Compress/clear context regularly
-3. **Be Specific** - "Page crashes on refresh" vs "UI doesn't work"
-4. **Version Control** - Commit after each success
-5. **Last Resort** - Sometimes start fresh
+**Key Point:** Task management combines Plan Mode and Action Mode working together
 
 ---
 
 # VIBE CODING TOOLS
 
+## 10. Tips
+
+### Battle-Tested Rules from Production Teams:
+
+1. **3-Strike Rule** - When approach isn't working after 3 tries:
+   - Switch AI models
+   - Change your prompt strategy
+   - Break problem down differently
+   - Go back to plan mode
+
+2. **10-Message Rule** - Every 10 messages with AI:
+   - Compress or clear the context
+   - Prevents context degradation
+   - Keeps AI performance optimal
+
+3. **Be Specific** - Vague descriptions = vague results
+   - Bad: "UI doesn't work properly"
+   - Good: "Page crashes on refresh when user not authenticated"
+
+4. **Version Control is Your Safety Net**
+   - Commit code after each successful iteration
+   - Gives confidence to experiment boldly
+   - Can always roll back if needed
+
+5. **Last Resort: Start Fresh**
+   - When complexity becomes unmanageable
+   - Sometimes clean slate is more efficient than fixing mess
+
+**Key Point:** These aren't just tips - they're proven strategies from real teams
+
+---
+
 ## 11. MCP Servers
 
+### What are MCP Servers?
+Special helper programs that make your AI coding agent more powerful by connecting it to other tools and services you use every day.
 
 ### Key Integrations:
-- **Figma** - Design to code automatically
-- **JIRA** - Tickets to tasks
-- **Context7** - Latest documentation
-- **StageWise** - Browser to editor connection
+
+**Figma Integration** - Turn Designs into Code Automatically
+- AI reads your Figma designs and understands what they should look like
+- Creates working React, Vue, or Angular components that match design perfectly
+- Reads design tokens and creates proper CSS code
+- Updates code automatically when you change designs in Figma
+
+**JIRA Integration** - Connect Project Management to Code Building
+- AI reads ticket details from JIRA project management system
+- Creates detailed task lists that match what needs to be built
+- Updates ticket status automatically as you work
+- Connects code commits to specific JIRA tickets
+
+**Context7** - Always Have Latest Documentation
+- Pulls latest library and SDK documentation from internet
+- AI always works with most current information
+- Knows about newest API specifications and features
+- Gets real-time access to community best practices
+
+**StageWise** - Connect Website to Code Editor
+- Browser toolbar that connects frontend UI to your code editor
+- Click any UI element to see exact code that creates it
+- See code changes reflected immediately in browser
+- Great for debugging UI problems
+
+**Key Point:** MCP servers turn your AI agent from just code writer into complete part of your development workflow
 
 ---
 
 ## 12. Best Coding Agents
 
-
 ### Top Platforms:
 
 **Claude Code:**
-- Built-in task breakdown
-- `/clear` and `/compact` commands
+- **Built-in Task Breakdown** - Automatically breaks your input into structured to-do list
+- **Context Management Commands:**
+  - `/clear` - completely clear context and start fresh
+  - `/compact` - compress context while keeping important information
+- **Best for:** Complex projects that need systematic step-by-step planning
 
 **Roo Code:**
-- Automatic context compression
-- Cost-efficient and fast
+- **Automatic Context Compression** - Manages context without manual work
+- **Cost-efficient and Fast** - Automatically optimizes performance
+- **Best for:** Large codebases where context becomes unwieldy quickly
+
+### How to Choose:
+- **Project complexity** - More complex projects benefit from Claude Code's task breakdown
+- **Team size** - Larger teams might prefer Roo Code's automatic management
+- **Budget constraints** - Context compression directly impacts costs
+- **Integration needs** - Which platform works best with your existing tools
+
+**Key Point:** Match platform capabilities to your specific needs and workflow requirements

@@ -62,15 +62,14 @@ For example, you might have:
 
 Ad-hoc prompts are the most commonly used context when talking to your Coding Agent.
 They can be different things like:
-- What you type in the chat window when talking to your AI helper
+- What you type in the chat window when talking to your AI Agent
 - Code files from your project that the AI can read and understand
 - Whole folders of code that the AI can look through and work with
 - Web links to documentation or other helpful resources online
 
 These ad-hoc prompts let your Agent understand what you're working on right now and give you the best solution for your specific situation.
 
-All the popular Coding Agents we can use today support these three kinds of prompts
-
+All the popular Coding Agents we can use today support these three kinds of prompts. However, most of developers are only using ad-hoc prompts. Leveraging global prompts and predefined prompts will save time and reduce inconsistent results.
 
 ---
 
@@ -82,7 +81,7 @@ Let me walk you through the three most popular models that coding teams use:
 
 **Gemini 2.5 Pro** is good at coding and documentation work. It can look at pictures of designs and turn them into working code, or read through documentation and help you understand it. Its ability to work with different types of information like images and text, plus its fast responses, makes it great for quick prototyping and turning visual designs into code.
 
-**GPT 4.1** works well across standard development workflows. It's your reliable helper for everyday coding work like fixing bugs, writing regular features, and handling routine development tasks. It gives you steady, dependable results for most common programming jobs.
+**GPT 4.1** is a balanced LLM that can handle common tasks very well. It's reliable for everyday coding work like fixing bugs, writing regular features, and handling routine development tasks. It gives you steady, dependable results across a wide range of programming jobs and works consistently for most standard development workflows.
 
 There are not too many performance differences among these LLMs for daily common coding tasks. So why do we need multiple LLMs?
 
