@@ -195,7 +195,7 @@ The developer's first job is to drive the system design and build a simple proje
 
 #### 2. Generate Tasks Based on Feature Requirements
 
-Next, you generate tasks based on feature requirements and project documents. If the task is too big, break it down into smaller tasks that are easier to handle. Look at what features you need to build and use your project documents to figure out what work needs to be done. When you have a big feature, don't try to build it all at once. Instead, break it into smaller pieces that are easier to work with. This makes it much easier for the AI helper to understand what you want and build each piece the right way. It's like eating a big meal - you don't try to eat everything at once, you take smaller bites.
+Next, you generate tasks based on feature requirements and project documents. If the task is too big, break it down into smaller tasks that are easier to handle. Look at what features you need to build and use your project documents to figure out what work needs to be done. When you have a big feature, don't try to build it all at once. Instead, break it into smaller pieces that are easier to work with. This makes it much easier for the AI Agent to understand what you want and build each piece the right way. It's like eating a big meal - you don't try to eat everything at once, you take smaller bites.
 
 #### 3. Design and Create Unit Tests for Module Interfaces
 
