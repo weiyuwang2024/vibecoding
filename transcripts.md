@@ -1,11 +1,34 @@
 # Presentation Transcripts: Mastering AI-Powered Development
 
-**Total Duration: 22-25 minutes**
+**Total Duration: 20 minutes**
+
+## 📅 Presentation Timeline
+
+```
+0:00 - 1:00    │ Introduction
+               │
+1:00 - 7:00    │ VIBE CODING BASICS
+1:00 - 2:30    │ ├─ Section 1: Prompts (1.5 min)
+2:30 - 4:00    │ ├─ Section 2: Support Multiple LLMs (1.5 min)
+4:00 - 5:30    │ ├─ Section 3: Agent Mode (1.5 min)
+5:30 - 7:00    │ └─ Section 4: Context Management (1.5 min)
+               │
+7:00 - 16:00   │ VIBE CODING ADVANCED
+7:00 - 8:30    │ ├─ Section 5: AI Strengths (1.5 min)
+8:30 - 10:00   │ ├─ Section 6: AI Limitations (1.5 min)
+10:00 - 11:30  │ ├─ Section 7: New Development Flow (1.5 min)
+11:30 - 13:00  │ ├─ Section 8: Memory Banks (1.5 min)
+13:00 - 16:00  │ └─ Section 9: Task Management (3 min)
+               │
+16:00 - 20:00  │ VIBE CODING TOOLS
+16:00 - 17:00  │ ├─ Section 10: Tips (1 min)
+17:00 - 19:00  │ ├─ Section 11: MCP Servers (2 min)
+19:00 - 20:00  │ └─ Section 12: Best Coding Agents (1 min)
+```
 
 ---
 
 ## Introduction
-*Duration: 1 minute*
 
 Good morning/afternoon everyone. Today we're diving deep into vibe coding. Over the next 20 minutes, we'll explore everything from the fundamentals to advanced professional techniques.
 
@@ -16,7 +39,6 @@ Let's begin with the foundation.
 # VIBE CODING BASICS
 
 ## Section 1: Prompts
-*Duration: 3 minutes*
 
 There are three types of prompts you can use:
 
@@ -29,7 +51,7 @@ Your coding tool automatically adds these Global prompts to every chat message a
 - Special domain knowledge for project like banking, healthcare, or online shopping
 
 ### Predefined Prompts:
-You can also make one or more pre-defined prompts. They won't be added to every chat automatically, but they should be very easy and fast to use. Think of them as your own custom commands.
+You can also make one or more pre-defined prompts. They won't be added to every chat automatically, but they should be very easy and fast to load to context. Think of them as your custom commands.
 
 For example, you might have:
 - Instruction files for different coding languages, documents, or types of projects
@@ -47,15 +69,12 @@ They can be different things like:
 
 These ad-hoc prompts let your Agent understand what you're working on right now and give you the best solution for your specific situation.
 
-All the popular Coding Agents you can use today support these three kinds of prompts
+All the popular Coding Agents we can use today support these three kinds of prompts
 
 
 ---
 
 ## Section 2: Support Multiple LLMs
-*Duration: 2 minutes*
-
-### Most Common Models used for Vibe Coding
 
 Let me walk you through the three most popular models that coding teams use:
 
@@ -74,11 +93,10 @@ You might want to have a coding agent that has a feature to quickly switch betwe
 ---
 
 ## Section 3: Agent Mode
-*Duration: 2-3 minutes*
 
-### Plan Mode 🧠 - Thinking and Planning Phase
+### Plan Mode - Thinking and Planning Phase
 
-Plan Mode is when you want your AI to think and plan things out. Use this when you're working on complicated features, designing systems, or figuring out how to fix old messy code.
+Plan Mode is when you want AI to think and plan things out. Use this when you're working on complicated features, designing systems, or figuring out how to fix old messy code.
 
 In Plan Mode, your Agent works on:
 - Designing how your system will work - figuring out how different parts will talk to each other before you write any code
@@ -88,7 +106,7 @@ In Plan Mode, your Agent works on:
 
 The important thing about Plan Mode is that it's only for thinking and planning - It don't write any actual code during this phase. You can talk to AI Agent back and forth to make sure Agent understand all the details and create a complete project plan before it start building anything.
 
-### Action Mode ⚡ - Building and Making Things
+### Action Mode - Building and Making Things
 
 Action Mode is where you actually get things done. This is for building features, fixing bugs, testing your code, and putting it live.
 
@@ -100,19 +118,15 @@ In Action Mode, your Agent does:
 
 ### When to Switch Between Modes
 
-The smart part is knowing when to switch between these modes:
-
 **Plan → Action:** Always finish your planning and design checking before you start building. I've seen many projects fail because developers skipped the planning part and jumped straight into writing code.
 
 **Action → Plan:** Go back to planning mode when things get too complicated for what you're currently doing. If you find yourself making big design decisions while you're trying to build, it's time to stop and plan.
-
 
 A good Coding Agent needs to support both Plan Mode and Action Mode.
 
 ---
 
 ## Section 4: Context Management:
-*Duration: 2 minutes*
 
 Context management is really important for keeping your AI working well and getting good results every time.
 
@@ -135,10 +149,7 @@ Most of the current coding agents support manually clearing and compressing cont
 
 # VIBE CODING ADVANCED
 
-## Section 5: Current AI Capabilities: Strengths and Strategic Applications
-*Duration: 2-3 minutes*
-
-### Where Coding Agents Work Really Well ✅
+## Section 5: Where Coding Agents Work Really Well ✅
 
 #### 1. Building Prototypes
 
@@ -327,8 +338,6 @@ All of these MCP server integrations work together to change your AI agent from 
 
 ## Section 12: Best Coding Agent in the Market
 *Duration: 1-2 minutes*
-
-Let me give you an honest comparison of the leading coding agents currently available.
 
 ### Leading Platform Comparison
 
