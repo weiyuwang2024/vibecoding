@@ -4,9 +4,7 @@
 
 # VIBE CODING BASICS
 
-## 1. Prompts
-
-### Three Types of Prompts:
+## 1. Three Types of Prompts: Global, Predefined & Ad-hoc
 
 **Global Prompts:** Your coding tool adds these to every chat automatically
 - Rules for your whole project - make sure code follows team standards
@@ -29,7 +27,7 @@
 
 ---
 
-## 2. Support Multiple LLMs
+## 2. Why Use Multiple LLMs: Cross-Check & Validate
 
 ### Popular Models:
 - **Claude Sonnet 3.7/4.0** - Great at complex tasks and understanding how code parts work together
@@ -45,11 +43,11 @@
 
 ---
 
-## 3. Agent Mode
+## 3. Two Agent Modes: Plan First, Then Action
 
 ### Plan Mode 🧠 - Thinking and Planning Phase
 - Design how your system will work before writing code
-- Understand how parts connect and depend on each other
+- Understand how modules connect and depend on each other
 - Check for problems and see if ideas will actually work
 - Estimate work time and plan realistic timelines
 - **Important: No code writing** - only thinking and planning
@@ -69,16 +67,20 @@
 
 ---
 
-## 4. Context Management
+## 4. Context Management: Clear vs Compress
 
-### Two Strategies:
-- **Clear Context** - Fresh start for new features or when switching to different work
-- **Compress Context** - Keep key points clear, lower cost, make things faster
+### Clear Context
+- Use when starting to work on new features
+- Helpful when switching to something completely different
+- Good when AI seems stuck on wrong approach
+- Fresh start removes confusing old information
 
-### Best Practice:
-- Longer context is NOT always better
-- Too much context confuses AI and makes it focus on wrong things
-- Compress context to help AI focus on what really matters
+### Compress Context
+- Keep in mind that longer context is NOT always better
+- Really helpful for long coding sessions working on same thing
+- Makes key points clearer, lowers cost, makes things faster
+- When too much context, AI gets confused by extra information
+- Helps AI focus on what really matters for current work
 - Most agents support manual clearing and compressing
 - **Roo Code** does automatic context compression without you asking
 
@@ -88,9 +90,10 @@
 
 # VIBE CODING ADVANCED
 
-## 5. AI Strengths
+---
 
-### Where Agents Excel ✅
+## 5. Where AI Coding Agents Excel
+
 1. **Building Prototypes** - Quick working demos to test ideas fast
    - Good for showing concepts to stakeholders
    - **Warning:** Code isn't organized for long-term projects
@@ -111,9 +114,8 @@
 
 ---
 
-## 6. AI Limitations
+## 6. Current AI Limitations & Problems
 
-### Where Agents Struggle ⚠️
 1. **Adding Features Without Big Picture**
    - Don't understand how whole system works together
    - Build things that don't fit with existing code
@@ -138,9 +140,7 @@
 
 ---
 
-## 7. New Development Flow
-
-### Developer-Led Process to Fix AI Problems:
+## 7. Developer-Led Development Flow
 
 1. **Drive System Design** - Create simple project design document
    - Show how whole system works and what parts you need
@@ -170,9 +170,7 @@
 
 ---
 
-## 8. Memory Banks: Persistent Project Memory
-
-### Three Components:
+## 8. Memory Banks
 
 **Project Brief 📋** - Basic Foundation
 - Project requirements and success rules
@@ -194,42 +192,32 @@
 ### Why Memory Banks?
 - **Long-term memory** for your project across conversations
 - **No re-explaining** - AI remembers project details automatically
-- **Better code** that follows your patterns and works with existing system
 - **Save time** - don't waste time explaining same things over and over
 
-**Key Point:** Like giving AI a notebook to remember everything important about your project
+**Key Point:** Like giving your AI agent a notebook where it writes down everything important about your project, so it never forgets and always helps you in the right way
 
 ---
 
 ## 9. Task Management
 
 ### Combined Plan + Action Flow:
-1. **Take PRD and project docs** → Create one clear task
-2. **Talk with AI to improve task** (Plan Mode) - ask questions, add details
-3. **AI builds the feature** (Action Mode) - write code, create files
-4. **Review what was built** - check quality and update project docs
+1. **Take requirement or PRD and project docs** Create one clear task
+2. **Talk with AI to improve task plan** ask questions, add details
+3. **AI builds the feature** write code, create files, and unit tests
+4. **Review what was built** check quality and update project docs
 
 ### Why Short Task Lists Work Better:
 - **Long task chains are unreliable** - hard to keep track of dependencies
 - **Hard to keep system design clean** - code doesn't fit together well
-- **Less flexible** - can't adjust when you learn new things
 - **Better quality** - focus on few tasks, build each one well
 
-### Best Practice:
-- Plan just a few tasks ahead
-- Finish them completely with good quality
-- Plan next tasks based on what you learned
-- Keep project organized and development smooth
-
-**Key Point:** Task management combines Plan Mode and Action Mode working together
+**Key Point:** Task management should be combined with memory banks working together
 
 ---
 
 # VIBE CODING TOOLS
 
 ## 10. Tips
-
-### Battle-Tested Rules from Production Teams:
 
 1. **3-Strike Rule** - When approach isn't working after 3 tries:
    - Switch AI models
@@ -255,16 +243,9 @@
    - When complexity becomes unmanageable
    - Sometimes clean slate is more efficient than fixing mess
 
-**Key Point:** These aren't just tips - they're proven strategies from real teams
-
 ---
 
-## 11. MCP Servers
-
-### What are MCP Servers?
-Special helper programs that make your AI coding agent more powerful by connecting it to other tools and services you use every day.
-
-### Key Integrations:
+## 11. Popular MCP Servers
 
 **Figma Integration** - Turn Designs into Code Automatically
 - AI reads your Figma designs and understands what they should look like
@@ -290,13 +271,9 @@ Special helper programs that make your AI coding agent more powerful by connecti
 - See code changes reflected immediately in browser
 - Great for debugging UI problems
 
-**Key Point:** MCP servers turn your AI agent from just code writer into complete part of your development workflow
-
 ---
 
-## 12. Best Coding Agents
-
-### Top Platforms:
+## 12. Top AI Coding Platforms
 
 **Claude Code:**
 - **Built-in Task Breakdown** - Automatically breaks your input into structured to-do list
@@ -309,11 +286,5 @@ Special helper programs that make your AI coding agent more powerful by connecti
 - **Automatic Context Compression** - Manages context without manual work
 - **Cost-efficient and Fast** - Automatically optimizes performance
 - **Best for:** Large codebases where context becomes unwieldy quickly
-
-### How to Choose:
-- **Project complexity** - More complex projects benefit from Claude Code's task breakdown
-- **Team size** - Larger teams might prefer Roo Code's automatic management
-- **Budget constraints** - Context compression directly impacts costs
-- **Integration needs** - Which platform works best with your existing tools
 
 **Key Point:** Match platform capabilities to your specific needs and workflow requirements

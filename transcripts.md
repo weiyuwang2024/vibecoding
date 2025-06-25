@@ -1,4 +1,4 @@
-# Presentation Transcripts: Mastering AI-Powered Development
+# Vibe Coding
 
 **Total Duration: 20 minutes**
 
@@ -8,22 +8,22 @@
 0:00 - 1:00    │ Introduction
                │
 1:00 - 7:00    │ VIBE CODING BASICS
-1:00 - 2:30    │ ├─ Section 1: Prompts (1.5 min)
-2:30 - 4:00    │ ├─ Section 2: Support Multiple LLMs (1.5 min)
-4:00 - 5:30    │ ├─ Section 3: Agent Mode (1.5 min)
-5:30 - 7:00    │ └─ Section 4: Context Management (1.5 min)
+1:00 - 2:30    │ ├─ Section 1: Three Types of Prompts: Global, Predefined & Ad-hoc (1.5 min)
+2:30 - 4:00    │ ├─ Section 2: Why Use Multiple LLMs: Cross-Check & Validate (1.5 min)
+4:00 - 5:30    │ ├─ Section 3: Two Agent Modes: Plan First, Then Action (1.5 min)
+5:30 - 7:00    │ └─ Section 4: Context Management: Clear vs Compress (1.5 min)
                │
 7:00 - 16:00   │ VIBE CODING ADVANCED
-7:00 - 8:30    │ ├─ Section 5: AI Strengths (1.5 min)
-8:30 - 10:00   │ ├─ Section 6: AI Limitations (1.5 min)
-10:00 - 11:30  │ ├─ Section 7: New Development Flow (1.5 min)
+7:00 - 8:30    │ ├─ Section 5: Where AI Coding Agents Excel (1.5 min)
+8:30 - 10:00   │ ├─ Section 6: Current AI Limitations & Problems (1.5 min)
+10:00 - 11:30  │ ├─ Section 7: Developer-Led Development Flow (1.5 min)
 11:30 - 13:00  │ ├─ Section 8: Memory Banks (1.5 min)
 13:00 - 16:00  │ └─ Section 9: Task Management (3 min)
                │
 16:00 - 20:00  │ VIBE CODING TOOLS
 16:00 - 17:00  │ ├─ Section 10: Tips (1 min)
 17:00 - 19:00  │ ├─ Section 11: MCP Servers (2 min)
-19:00 - 20:00  │ └─ Section 12: Best Coding Agents (1 min)
+19:00 - 20:00  │ └─ Section 12: Top AI Coding Platforms (1 min)
 ```
 
 ---
@@ -36,9 +36,7 @@ Let's begin with the foundation.
 
 ---
 
-# VIBE CODING BASICS
-
-## Section 1: Prompts
+## Section 1: Three Types of Prompts: Global, Predefined & Ad-hoc
 
 There are three types of prompts you can use:
 
@@ -73,7 +71,7 @@ All the popular Coding Agents we can use today support these three kinds of prom
 
 ---
 
-## Section 2: Support Multiple LLMs
+## Section 2: Why Use Multiple LLMs: Cross-Check & Validate
 
 Let me walk you through the three most popular models that coding teams use:
 
@@ -91,7 +89,7 @@ You might want to have a coding agent that has a feature to quickly switch betwe
 
 ---
 
-## Section 3: Agent Mode
+## Section 3: Two Agent Modes: Plan First, Then Action
 
 ### Plan Mode - Thinking and Planning Phase
 
@@ -125,7 +123,7 @@ A good Coding Agent needs to support both Plan Mode and Action Mode.
 
 ---
 
-## Section 4: Context Management:
+## Section 4: Context Management: Clear vs Compress
 
 Context management is really important for keeping your AI working well and getting good results every time.
 
@@ -148,7 +146,7 @@ Most of the current coding agents support manually clearing and compressing cont
 
 # VIBE CODING ADVANCED
 
-## Section 5: Where Coding Agents Work Really Well ✅
+## Section 5: Where AI Coding Agents Excel ✅
 
 #### 1. Building Prototypes
 
@@ -170,9 +168,7 @@ The important thing to remember is that coding agents work best when the task is
 
 ---
 
-## Section 6: Current Limitations: Where Agents Struggle ⚠️
-*Duration: 2-3 minutes*
-
+## Section 6: Current AI Limitations & Problems ⚠️
 ### 1. Adding New Features Without the Big Picture
 
 Coding agents often add new features without understanding the design. They don't see how the whole system works together, so they might build something that doesn't fit well with what already exists. For example, they might create a new way to handle user login without knowing that there's already a security system in place that handles authentication differently. This creates conflicts and problems that are hard to fix later.
@@ -191,10 +187,7 @@ Coding agents may choose unexpected libraries instead of using the tools and lib
 
 ---
 
-## Section 7: New Development Flow
-*Duration: 2-3 minutes*
-
-To fix the problems we just talked about, we need to reorganize the development flow.
+## Section 7: Developer-Led Development Flow
 
 #### 1. Drive System Design and Build Project Design Document
 
@@ -218,12 +211,9 @@ Finally, update the project documents with new feature changes. Keep your design
 
 ---
 
-## Section 8: Memory Banks: Persistent Project Memory
-*Duration: 2-3 minutes*
+## Section 8: Memory Banks
 
-### Organized Knowledge Management System
-
-Memory banks are the long-term memory of your project, made up of three important parts:
+Memory banks are the long-term memory of your project, I've build my memory bank with three important parts:
 
 #### Project Brief 📋 - Basic Foundation
 
@@ -255,7 +245,6 @@ Memory banks help your AI coding agent remember important things about your proj
 ---
 
 ## Section 9: Task Management:
-*Duration: 3-4 minutes*
 
 ### 1. Task Management is Plan Mode and Action Mode Working Together
 
@@ -274,11 +263,6 @@ Short task lists work much better because when you have many tasks that depend o
 # VIBE CODING TIPS
 
 ## Section 10: Tips
-*Duration: 1-2 minutes*
-
-Let me share some hard-earned wisdom from teams using vibe coding in production environments.
-
-### Essential Development Guidelines
 
 #### 1. The 3-Strike Rule
 
@@ -308,12 +292,7 @@ These aren't just tips - they're battle-tested strategies from teams shipping pr
 
 ---
 
-## Section 11: MCP Servers
-*Duration: 3-4 minutes*
-
-MCP servers, which stands for Model Context Protocol servers, are special helper programs that make your AI coding agent much more powerful by connecting it to other tools and services that you use every day. Think of MCP servers like bridges that let your AI agent talk to and work with all the different programs and websites you use for development work.
-
-### How MCP Servers Help You Build Better Software
+## Section 11: Popular MCP Servers
 
 #### 1. Figma Integration - Turn Designs into Code Automatically
 
@@ -331,14 +310,10 @@ Context7 solves a big problem that many developers face - working with old or ou
 
 StageWise is especially powerful when you're building full-stack applications that have both frontend user interfaces and backend server code. This tool works as a browser toolbar that creates a direct connection between your frontend UI running in the browser and your AI coding agents in your code editor. When you're looking at your website in the browser, you can click on any UI element like a button, form, or menu, and StageWise will show you the exact code that creates that element in your editor. When you make changes to your code in the editor, you can see those changes reflected immediately in the browser without having to refresh or restart anything. This is really helpful for debugging UI problems because you can connect visual issues you see in the browser directly to the code solutions in your editor, making it much faster to find and fix problems.
 
-All of these MCP server integrations work together to change your AI agent from being just a code writing tool into being a complete part of your entire development workflow that connects to all the other tools and services you use to build software.
 
 ---
 
-## Section 12: Best Coding Agent in the Market
-*Duration: 1-2 minutes*
-
-### Leading Platform Comparison
+## Section 12: Top AI Coding Agents
 
 #### 1. Claude Code
 
@@ -356,12 +331,5 @@ This gives you fine-grained control over context management, which is crucial fo
 
 Roo Code's standout feature is its **excellent context auto-compress capability**. This makes the agent both fast and cost-efficient by automatically managing context without manual intervention. It's particularly valuable for teams working on large codebases where context can quickly become unwieldy.
 
-### Platform Selection Considerations
-
-When choosing a platform, consider:
-- **Project complexity** - More complex projects benefit from Claude Code's task breakdown
-- **Team size** - Larger teams might prefer Roo Code's automatic context management
-- **Budget constraints** - Context compression directly impacts costs
-- **Integration requirements** - Which platform works best with your existing tools
 
 The key is matching the platform capabilities to your specific needs and workflow requirements.
