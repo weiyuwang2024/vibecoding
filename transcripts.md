@@ -30,7 +30,7 @@
 
 ## Introduction
 
-Good morning, good evening everyone. The world of vibe coding has changed really quickly in the past year. There are many new coding agents, useful tools, and strategies that came out during this time. I think that in the next few years, this whole area will keep growing and changing even faster than it is now. Today I am here want to share the things I have learned and the helpful tips I have discovered while working with AI coding tools over the past few months.
+Good morning, good evening everyone. The world of vibe coding has changed really quickly in the past year. There are many new coding agents, useful tools, and strategies that came out during this time. I think that in the next few years, this whole area will keep growing and changing even faster than it is now. Today I am here to share the things I have learned and the helpful tips I have discovered while working with AI coding tools over the past few months.
 
 ---
 
@@ -99,7 +99,7 @@ In Plan Mode, your Agent works on:
 - Checking for problems and seeing if your ideas will actually work - finding issues before they become big problems
 - Estimating how much work things will take and planning timelines - getting realistic ideas about how long things will take
 
-The important thing about Plan Mode is that it's only for thinking and planning - It don't write any actual code during this phase. You can talk to AI Agent back and forth to make sure Agent understand all the details and create a complete project plan before it start building anything.
+The important thing about Plan Mode is that it's only for thinking and planning - it doesn't write any actual code during this phase. You can talk to the AI Agent back and forth to make sure the Agent understands all the details and creates a complete project plan before it starts building anything.
 
 ### Action Mode - Building and Making Things
 
@@ -178,14 +178,14 @@ Coding agents may generate duplicate code because they don't always recognize ex
 
 ### 3. Introduce unexpected Libraries
 
-Coding agents may choose unexpected libraries instead of using the tools and libraries that are already part of your project. They might suggest adding new libraries that do the similar job as what you already have, or pick libraries that don't fit well with your existing setup. This can cause conflicts and make your project harder to manage. 
+Coding agents may choose unexpected libraries instead of using the tools and libraries that are already part of your project. They might suggest adding new libraries that do a similar job as what you already have, or pick libraries that don't fit well with your existing setup. This can cause conflicts and make your project harder to manage.
 
 ### 4. Problems with Fixing Unit Tests
 
 When you add new features to your project using coding agent and some of your unit tests start failing, the agent might take the wrong approach. Instead of looking at the actual code that has the real problems and fixing those issues, the agent might choose the easier path and just change the unit test cases themselves to make them pass. This is a bad approach because the unit tests are there to catch problems in your code and make sure everything works correctly. When the AI agent changes the tests instead of fixing the real code problems, it means the actual bugs are still there but hidden, which can cause trouble later when users try to use your application.
 
 
-Coding agents often introduced issues when adding new features without understanding the design.
+Coding agents often introduce issues when adding new features without understanding the design.
 
 ---
 
@@ -215,7 +215,7 @@ Finally, update the project documents with new feature changes. Keep your design
 
 ## Section 8: Memory Banks
 
-Memory banks are the long-term memory of your project, I've build my memory bank with three important parts:
+Memory banks are the long-term memory of your project. I've built my memory bank with three important parts:
 
 #### Project Brief 📋 - Basic Foundation
 
@@ -229,7 +229,7 @@ The project brief has:
 
 System patterns write down:
 - System architecture - pictures that show how your system is built
-- Module explanation with what are the input and output
+- Module explanations with their inputs and outputs
 - Data flow pictures and system connections - how information moves through your system
 - File and folder structures - how your code files are arranged and organized
 
@@ -247,21 +247,21 @@ This is my way of organizing memory bank files, and it's different from what the
 
 Even though the memory bank itself is not a global prompt, we set up our global prompts to automatically load the memory bank information at the start of every conversation with our AI agent. This means coding agent always has access to the project's important details right from the beginning of each chat.
 
-We also create rules about how to build your memory bank and when should update it. Normally, memory bank should be updated every time you make changes to the project, whether add new features, clean up the code, or fix bugs. However, updating the memory bank can be expensive when the codebase is very large. Because of this cost issue, I changed my memory bank update process from automatic updates to manual updates, and now I only update the memory bank when there are big important changes that really matter for future development work.
+We also create rules about how to build your memory bank and when you should update it. Normally, memory banks should be updated every time you make changes to the project, whether adding new features, cleaning up the code, or fixing bugs. However, updating the memory bank can be expensive when the codebase is very large. Because of this cost issue, I changed my memory bank update process from automatic updates to manual updates, and now I only update the memory bank when there are big important changes that really matter for future development work.
 
 ### Why Do We Need Memory Banks
 
-Memory banks are very important for keeping long-term information about your project. With memory banks, agent can understand the project clearly without having to load and read through your entire codebase every time. This saves time and helps agent give you better answers that fit your specific project needs.
+Memory banks are very important for keeping long-term information about your project. With memory banks, your AI agent can understand the project clearly without having to load and read through your entire codebase every time. This saves time and helps the agent give you better answers that fit your specific project needs.
 
 ---
 
 ## Section 9: Task Management:
 
-Task management is another important method we use in vibe coding. It is a predefined prompt that includes the structure and format of tasks, and it also includes the custom workflows for new task, update task, and execute task.
+Task management is another important method we use in vibe coding. It is a predefined prompt that includes the structure and format of tasks, and it also includes the custom workflows for creating new tasks, updating tasks, and executing tasks.
 
 ### 1. Task Management Process
 
-The whole process begins with creating task. You start by taking your product requirements and project design documents that explain what you need to build and how your system should work. The key is to focus on just the next thing you need to build, not everything at once.
+The whole process begins with creating a task. You start by taking your product requirements and project design documents that explain what you need to build and how your system should work. The key is to focus on just the next thing you need to build, not everything at once.
 
 Once you have created a basic task, you can have conversations back and forth with your coding agent to improve the task. You do this by asking questions, adding more details, and making sure the task plan is clear and doable.
 
@@ -275,6 +275,8 @@ After the task is completed and everything is working properly, you need to revi
 You don't need to plan out all your tasks at the beginning. Instead, build your project step by step by creating just one or two tasks at a time. Making a long chain of tasks that depend on each other is not reliable. It's very hard to keep the system well designed without refactoring the codebase between tasks.
 
 Incremental building works much better than planning everything upfront. When you generate only one or two tasks at a time, you can adjust your development direction more often and keep moving toward your goal. You finish the current tasks, see what you learned, then create the next one or two tasks based on that new knowledge. This way, if something goes in the wrong direction, you catch it early and can fix it before it affects the rest of your project. This incremental approach helps you stay on track and build exactly what you need.
+
+---
 
 # VIBE CODING TIPS
 
@@ -302,7 +304,7 @@ Commit your code after each successful iteration with your AI agent. This gives 
 
 #### 5. Last Resort: Burn It Down
 
-Sometimes, complexity becomes unmanageable when working on big changes. if you or the agent are unable to fix the code issue, don't be afraid to start fresh. Sometimes a clean slate is more efficient than trying to untangle a mess.
+Sometimes, complexity becomes unmanageable when working on big changes. If you or the agent are unable to fix the code issue, don't be afraid to start fresh. Sometimes a clean slate is more efficient than trying to untangle a mess.
 
 These aren't just tips - they're battle-tested strategies from teams shipping production code with AI agents.
 
@@ -310,7 +312,7 @@ These aren't just tips - they're battle-tested strategies from teams shipping pr
 
 ## Section 11: Popular MCP Servers
 
-There are lots of popular MCP server can be integrated into the coding agent, I'm here list some server I've used a lot.
+There are lots of popular MCP servers that can be integrated into coding agents. Here I'll list some servers I've used a lot.
 
 #### 1. Figma Integration - Turn Designs into Code Automatically
 
@@ -322,15 +324,15 @@ I use Figma integration in two ways:
 
 #### 2. JIRA Integration - Connect Project Management to Code Building
 
-I usually use JIRA server to search and check my ticket status from my coding environment, so I don't have to switch between different tools. I can also generate tasks and update tasks from the JIRA ticket directly. This means when I see a JIRA ticket that needs work, I can quickly turn it into a coding task for my coding agent, and when the work is done, I can update the ticket status right from where I'm coding. This keeps everything connected and saves time.
+I usually use JIRA server to search and check my ticket status from my coding environment, so I don't have to switch between different tools. I can also generate tasks and update tasks from the JIRA tickets directly. This means when I see a JIRA ticket that needs work, I can quickly turn it into a coding task for my AI agent, and when the work is done, I can update the ticket status right from where I'm coding. This keeps everything connected and saves time.
 
 #### 3. Context7 - Always Have the Latest Documentation
 
-Context7 solves a common problem - using old documentation that doesn't work anymore. This MCP server always gets the newest documentation from the internet, so your agent always has the most up-to-date information about programming libraries and tools. It automatically updates when new versions come out. This means coding agent will never suggest old ways of coding that don't work with current versions.
+Context7 solves a common problem - using old documentation that doesn't work anymore. This MCP server always gets the newest documentation from the internet, so your AI agent always has the most up-to-date information about programming libraries and tools. It automatically updates when new versions come out. This means your AI agent will never suggest old ways of coding that don't work with current versions.
 
 #### 4. StageWise - Visual UI Selection and Direct Agent Communication
 
-StageWise lets you see and select UI elements directly on your website and highlight what you're pointing at. Once you select a UI element, you can talk to agent directly about that selected element and ask for changes to its visual effects or styling. This makes it really easy to change the looks of the UI elements
+StageWise lets you see and select UI elements directly on your website and highlight what you're pointing at. Once you select a UI element, you can talk to your AI agent directly about that selected element and ask for changes to its visual effects or styling. This makes it really easy to change the appearance of UI elements.
 
 
 ---
@@ -353,4 +355,4 @@ This gives you fine-grained control over context management, which is crucial fo
 
 Roo Code's standout feature is its **excellent context auto-compress capability**. This makes the agent both fast and cost-efficient by automatically managing context without manual intervention. It's particularly valuable for teams working on large codebases where context can quickly become unwieldy.
 
-The coding agent market is changing very fast, and coding agents will keep getting smarter and smarter. The tools and strategies we use may also change from time to time. Right now, coding agents won't replace humans, but they do significantly boost productivity. It’s worth keeping an eye on how this area develops in the coming years 
+The coding agent market is changing very fast, and coding agents will keep getting smarter and smarter. The tools and strategies we use may also change from time to time. Right now, coding agents won't replace humans, but they do significantly boost productivity. It's worth keeping an eye on how this area develops in the coming years.
