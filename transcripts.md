@@ -30,9 +30,7 @@
 
 ## Introduction
 
-Good morning/afternoon everyone. Today we're diving deep into vibe coding. Over the next 20 minutes, we'll explore everything from the fundamentals to advanced professional techniques.
-
-Let's begin with the foundation.
+Good morning, good evening everyone. The world of vibe coding has changed really quickly in the past year. There are many new coding agents, useful tools, and strategies that came out during this time. I think that in the next few years, this whole area will keep growing and changing even faster than it is now. Today I am here want to share the things I have learned and the helpful tips I have discovered while working with AI coding tools over the past few months.
 
 ---
 
@@ -169,21 +167,25 @@ The important thing to remember is that coding agents work best when the task is
 ---
 
 ## Section 6: Current AI Limitations & Problems ⚠️
-### 1. Adding New Features Without the Big Picture
 
-Coding agents often add new features without understanding the design. They don't see how the whole system works together, so they might build something that doesn't fit well with what already exists. For example, they might create a new way to handle user login without knowing that there's already a security system in place that handles authentication differently. This creates conflicts and problems that are hard to fix later.
-
-### 2. Failed to Maintain Consistency Across Different Modules
+### 1. Failed to Maintain Consistency Across Different Modules
 
 Coding agents fail to maintain consistency across different modules in your project. Each part of your code might be written in a different style or follow different patterns, even though they should all work together smoothly. One module might handle errors one way, while another module handles the same type of errors completely differently. This makes the codebase confusing and harder to maintain over time.
 
-### 3. Generate Duplicate Code
+### 2. Generate Duplicate Code
 
 Coding agents may generate duplicate code because they don't always recognize existing functionality that's already been built. They might create a new function to format dates when there's already a date formatting function somewhere else in the codebase. This happens because they can't see or understand all the existing code, especially in large projects. You end up with multiple pieces of code that do the same thing, which makes your project bigger and harder to maintain.
 
-### 4. Introduce unexpected Libraries
+### 3. Introduce unexpected Libraries
 
 Coding agents may choose unexpected libraries instead of using the tools and libraries that are already part of your project. They might suggest adding new libraries that do the similar job as what you already have, or pick libraries that don't fit well with your existing setup. This can cause conflicts and make your project harder to manage. 
+
+### 4. Problems with Fixing Unit Tests
+
+When you add new features to your project using coding agent and some of your unit tests start failing, the agent might take the wrong approach. Instead of looking at the actual code that has the real problems and fixing those issues, the agent might choose the easier path and just change the unit test cases themselves to make them pass. This is a bad approach because the unit tests are there to catch problems in your code and make sure everything works correctly. When the AI agent changes the tests instead of fixing the real code problems, it means the actual bugs are still there but hidden, which can cause trouble later when users try to use your application.
+
+
+Coding agents often introduced issues when adding new features without understanding the design.
 
 ---
 
@@ -238,27 +240,41 @@ Technical context includes:
 - External dependencies - outside services and APIs that your project connects to and relies on
 - Environment setup - how to set up your development environment and deploy your application to make it work
 
-### Why Memory Bank
 
-Memory banks help your AI coding agent remember important things about your project even when you start new conversations. Without memory banks, you have to explain your project setup, coding rules, and how your system works every single time you talk to your AI agent. This wastes a lot of time and makes your AI give you answers that don't fit your project. With memory banks, your AI agent already knows your project details, so it can give you better code that follows your patterns and works well with what you already built. Think of it like giving your AI agent a notebook where it writes down everything important about your project, so it never forgets and always helps you in the right way.
+This is my way of organizing memory bank files, and it's different from what the official guides suggest. You might want to use different types of documents in your memory bank, and that's perfectly fine. As long as your documents can explain your project and system in a clear way, your memory bank should work really well for your needs.
+
+#### Workflows 🔄 - How Memory Banks Work
+
+Even though the memory bank itself is not a global prompt, we set up our global prompts to automatically load the memory bank information at the start of every conversation with our AI agent. This means coding agent always has access to the project's important details right from the beginning of each chat.
+
+We also create rules about how to build your memory bank and when should update it. Normally, memory bank should be updated every time you make changes to the project, whether add new features, clean up the code, or fix bugs. However, updating the memory bank can be expensive when the codebase is very large. Because of this cost issue, I changed my memory bank update process from automatic updates to manual updates, and now I only update the memory bank when there are big important changes that really matter for future development work.
+
+### Why Do We Need Memory Banks
+
+Memory banks are very important for keeping long-term information about your project. With memory banks, agent can understand the project clearly without having to load and read through your entire codebase every time. This saves time and helps agent give you better answers that fit your specific project needs.
 
 ---
 
 ## Section 9: Task Management:
 
-### 1. Task Management is Plan Mode and Action Mode Working Together
+Task management is another important method we use in vibe coding. It is a predefined prompt that includes the structure and format of tasks, and it also includes the custom workflows for new task, update task, and execute task.
 
-Task management is a combined flow that uses both plan mode and action mode together. You take your PRD (Product Requirements Document) and project documents to create tasks. Then you can talk to your AI agent to update and improve the task until it's ready to build.
+### 1. Task Management Process
 
-The whole process starts when you take your product requirements and project design documents that tell you what you need to build and how your system should work, then you use these documents to make one clear task - just focus on the next thing you need to build. Once you have a basic task, you can talk back and forth with your AI agent to make the task better by asking questions, adding details, and making sure the task is clear and doable, which is like using plan mode to think through the task before you start building. When the task is ready and well planned out, your AI agent switches to action mode to actually build the feature by writing code, creating files, and making all the changes you need to get the work done. After the task is finished and working, you review what was built to make sure it's good quality and then update your project documents to keep everything organized and ready for the next task. This back-and-forth between planning and building makes sure each task is well thought out and fits properly with your project, creating a smooth flow that combines the best parts of both plan mode and action mode working together.
+The whole process begins with creating task. You start by taking your product requirements and project design documents that explain what you need to build and how your system should work. The key is to focus on just the next thing you need to build, not everything at once.
+
+Once you have created a basic task, you can have conversations back and forth with your coding agent to improve the task. You do this by asking questions, adding more details, and making sure the task plan is clear and doable.
+
+When the task is well planned out and ready, you run the task and let the coding agent build the feature. The agent does this by writing code, creating new files, and making all the changes that are needed to get the work finished.
+
+After the task is completed and everything is working properly, you need to review what was built to make sure it meets good quality standards. Then you update your project documents to keep everything organized and ready for the next task you want to work on.
+
 
 ### 2. Don't Build Long Task Lists - Keep Dependencies Simple
 
-You don't have to build a long task list at the beginning. Making a long chain of tasks that depend on each other is not reliable, just like Claude Task Master shows us. It's very hard to keep the system well designed without refactoring the codebase between tasks.
+You don't need to plan out all your tasks at the beginning. Instead, build your project step by step by creating just one or two tasks at a time. Making a long chain of tasks that depend on each other is not reliable. It's very hard to keep the system well designed without refactoring the codebase between tasks.
 
-Short task lists work much better because when you have many tasks that depend on each other, it becomes very hard to keep track of what needs to happen when, and if one task changes, it can affect many other tasks and create confusion that makes everything harder to manage. Long task chains also make it hard to keep your system design clean and organized, so you end up with code that doesn't fit together well and needs lots of fixing later, which wastes time and creates more problems. When you have a long list of planned tasks, it's also much harder to change your mind or adjust when you learn new things during development, but short task lists let you be more flexible and responsive to what you discover as you build and learn about your project. Most importantly, when you focus on just a few tasks at a time, you can give each one proper attention and make sure each task is built well and tested properly before moving to the next one, which leads to much better quality code and fewer bugs. The smart approach is to plan just a few tasks ahead, finish them completely with good quality, then plan the next few tasks based on what you learned from the work you just finished, and this approach keeps your project organized, your code quality high, and your development process smooth and manageable.
-
----
+Incremental building works much better than planning everything upfront. When you generate only one or two tasks at a time, you can adjust your development direction more often and keep moving toward your goal. You finish the current tasks, see what you learned, then create the next one or two tasks based on that new knowledge. This way, if something goes in the wrong direction, you catch it early and can fix it before it affects the rest of your project. This incremental approach helps you stay on track and build exactly what you need.
 
 # VIBE CODING TIPS
 
@@ -286,7 +302,7 @@ Commit your code after each successful iteration with your AI agent. This gives 
 
 #### 5. Last Resort: Burn It Down
 
-Sometimes, complexity becomes unmanageable. When refactoring isn't enough and the codebase has become too tangled, don't be afraid to start fresh. Sometimes a clean slate is more efficient than trying to untangle a mess.
+Sometimes, complexity becomes unmanageable when working on big changes. if you or the agent are unable to fix the code issue, don't be afraid to start fresh. Sometimes a clean slate is more efficient than trying to untangle a mess.
 
 These aren't just tips - they're battle-tested strategies from teams shipping production code with AI agents.
 
@@ -294,21 +310,27 @@ These aren't just tips - they're battle-tested strategies from teams shipping pr
 
 ## Section 11: Popular MCP Servers
 
+There are lots of popular MCP server can be integrated into the coding agent, I'm here list some server I've used a lot.
+
 #### 1. Figma Integration - Turn Designs into Code Automatically
 
-This connection between your AI agent and Figma is really amazing for building websites and apps. When you have a Figma MCP server working with your AI agent, your agent can look at the designs you made in Figma and understand exactly what they should look like when built as real code. Your AI agent can pull the UI designs directly from your Figma files, study all the design details like colors, fonts, spacing, and layout, then create working React, Vue, or Angular components that match your design perfectly. The AI agent can also read your design tokens and style guides from Figma and turn them into proper CSS code or styled-components that follow your design system. Even better, when you make changes to your designs in Figma, the MCP server can tell your AI agent about these changes and automatically update your code to match the new design. Imagine working on a new dashboard design in Figma, and then having your AI agent build the complete React code for it, including all the responsive breakpoints that make it work on phones and tablets, plus all the accessibility features that help people with disabilities use your app.
+I use Figma integration in two ways:
+
+**UI Design to Code:** Design the UI on Figma, then generate the UI code directly from the design. Your AI agent can look at your Figma designs and create working React, Vue, or Angular components that match your design perfectly.
+
+**System Design to Project:** Design system architecture and workflows on Figma, then generate project documents and code from the design diagrams. This helps you plan bigger projects and create the project structure based on your architectural design.
 
 #### 2. JIRA Integration - Connect Project Management to Code Building
 
-JIRA integration makes managing your development projects much easier and more organized. With a JIRA MCP server, your AI agent can read ticket details directly from your JIRA project management system and bring all that information into your development environment where you write code. This means your AI agent can look at JIRA tickets and create detailed task lists and to-do items that match exactly what needs to be built according to your project plan. As you work on building features, the MCP server can automatically update the ticket status in JIRA to show your progress, so your project manager and team members always know what's been finished and what's still being worked on. The system can also connect your code commits to specific JIRA tickets, which creates a complete trail showing exactly what code changes were made for each feature or bug fix. This creates a smooth flow from project planning in JIRA all the way to delivering finished code, with everything connected and tracked properly.
+I usually use JIRA server to search and check my ticket status from my coding environment, so I don't have to switch between different tools. I can also generate tasks and update tasks from the JIRA ticket directly. This means when I see a JIRA ticket that needs work, I can quickly turn it into a coding task for my coding agent, and when the work is done, I can update the ticket status right from where I'm coding. This keeps everything connected and saves time.
 
 #### 3. Context7 - Always Have the Latest Documentation
 
-Context7 solves a big problem that many developers face - working with old or outdated documentation that leads to using deprecated code patterns that don't work anymore. This MCP server always pulls the latest library and SDK documentation directly from the internet, so your AI agent is always working with the most current information about how to use different programming libraries and tools. The system makes sure your AI agent knows about the newest API specifications and features, and it automatically updates when libraries release new versions with changes or improvements. Context7 also gives your AI agent real-time access to community best practices and examples from other developers, so you get code that follows current standards and works well with modern development practices. This means you never have to worry about your AI agent suggesting old ways of doing things that might not work with current versions of libraries and frameworks.
+Context7 solves a common problem - using old documentation that doesn't work anymore. This MCP server always gets the newest documentation from the internet, so your agent always has the most up-to-date information about programming libraries and tools. It automatically updates when new versions come out. This means coding agent will never suggest old ways of coding that don't work with current versions.
 
-#### 4. StageWise - Connect Your Website to Your Code Editor
+#### 4. StageWise - Visual UI Selection and Direct Agent Communication
 
-StageWise is especially powerful when you're building full-stack applications that have both frontend user interfaces and backend server code. This tool works as a browser toolbar that creates a direct connection between your frontend UI running in the browser and your AI coding agents in your code editor. When you're looking at your website in the browser, you can click on any UI element like a button, form, or menu, and StageWise will show you the exact code that creates that element in your editor. When you make changes to your code in the editor, you can see those changes reflected immediately in the browser without having to refresh or restart anything. This is really helpful for debugging UI problems because you can connect visual issues you see in the browser directly to the code solutions in your editor, making it much faster to find and fix problems.
+StageWise lets you see and select UI elements directly on your website and highlight what you're pointing at. Once you select a UI element, you can talk to agent directly about that selected element and ask for changes to its visual effects or styling. This makes it really easy to change the looks of the UI elements
 
 
 ---
@@ -331,5 +353,4 @@ This gives you fine-grained control over context management, which is crucial fo
 
 Roo Code's standout feature is its **excellent context auto-compress capability**. This makes the agent both fast and cost-efficient by automatically managing context without manual intervention. It's particularly valuable for teams working on large codebases where context can quickly become unwieldy.
 
-
-The key is matching the platform capabilities to your specific needs and workflow requirements.
+The coding agent market is changing very fast, and coding agents will keep getting smarter and smarter. The tools and strategies we use may also change from time to time. Right now, coding agents won't replace humans, but they do significantly boost productivity. It’s worth keeping an eye on how this area develops in the coming years 

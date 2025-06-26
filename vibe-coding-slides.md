@@ -116,27 +116,22 @@
 
 ## 6. Current AI Limitations & Problems
 
-1. **Adding Features Without Big Picture**
-   - Don't understand how whole system works together
-   - Build things that don't fit with existing code
-   - Create conflicts that are hard to fix later
-
-2. **Failed Consistency Across Modules**
+1. **Failed Consistency Across Modules**
    - Each part written in different style
    - Different error handling in similar situations
    - Makes codebase confusing and hard to maintain
 
-3. **Generate Duplicate Code**
+2. **Generate Duplicate Code**
    - Don't recognize existing functionality already built
    - Create new functions when similar ones already exist
    - Make projects bigger and harder to maintain
 
-4. **Introduce Unexpected Libraries**
+3. **Introduce Unexpected Libraries**
    - Choose new libraries instead of using existing tools
    - Pick libraries that don't fit with current setup
    - Cause conflicts and make project harder to manage
 
-**Key Point:** These problems happen because AI can't see the whole project at once
+**Key Point:**  Problem will be introduced when Coding Agent adding features without big pictures
 
 ---
 
